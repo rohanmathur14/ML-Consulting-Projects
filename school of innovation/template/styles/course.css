@@ -1417,6 +1417,7 @@ section
 }
 .course_price
 {
+	display: none;
 	font-family: 'Roboto Slab', serif;
 	font-size: 24px;
 	font-weight: 400;

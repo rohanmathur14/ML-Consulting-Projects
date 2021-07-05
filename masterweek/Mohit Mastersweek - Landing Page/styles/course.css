@@ -904,11 +904,14 @@ section
 .course_image
 {
 	margin-top: 21px;
-	width: 100%;
+	width: 650px;
+	height: 350px;
 }
 .course_image img
 {
 	max-width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 .course_tabs_container
 {
@@ -1417,6 +1420,7 @@ section
 }
 .course_price
 {
+	display: none;
 	font-family: 'Roboto Slab', serif;
 	font-size: 24px;
 	font-weight: 400;
@@ -1884,3 +1888,21 @@ section
 {
 	color: #14bdee;
 }
+
+
+@media only screen and (max-width:  600px){
+	.course_image
+{
+	margin-top: 21px;
+	width: 100%;
+	height: 250px;
+}
+}
+
+
+
+
+
+
+
+

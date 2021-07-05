@@ -866,6 +866,9 @@ section {
   min-width: 70px;
   text-align: center;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .offer-icon:before {
   content: '';
@@ -886,6 +889,11 @@ section {
   max-height: 70px;
   position: relative;
   z-index: 1;
+}
+.offer-icon img{
+  width: 50px;
+  position: relative;
+  bottom: 25px;
 }
 .offer-info .title {
   position: relative;

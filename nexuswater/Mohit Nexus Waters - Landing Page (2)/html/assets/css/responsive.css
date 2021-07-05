@@ -1,0 +1,415 @@
+/* Mzadi Responsive CSS */
+
+@media screen and (min-width:1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (min-width:1270px) {
+  
+}
+
+@media screen and (max-width:1199px) {
+  .oildrop-navigation {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: #ffffff;
+    text-align: left;
+    overflow-y: auto;
+    transform: translateX(-100%);
+    transition: all ease .4s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    z-index: 11;
+  }
+  .header-wrap.open .oildrop-navigation {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-box-shadow: 0 0 0.9375rem rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 0 0.9375rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 0.9375rem rgba(0, 0, 0, 0.15);
+  }
+  .oildrop-navigation > ul {
+    position: relative;
+  }
+  .header-right ul li {
+    position: initial;
+    display: block;
+    padding: 0;
+    border-bottom: 1px solid #d2d2d2;
+  }
+  .oildrop-navigation ul li.menu-item-has-children > a {
+    display: inline-block;
+    padding: 13px 0;
+    color: #3C424F;
+  }
+  .sub-menu {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    transform: translateX(100%);
+    transition: all ease .6s;
+    box-shadow: none;
+  }
+  .oildrop-navigation li .dropdown-arrow {
+    float: right;
+    height: 46px;
+    width: 49px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 3px;
+    text-align: center;
+  }
+  .oildrop-navigation li .dropdown-arrow:before {
+    border: none;
+    border-right: 2px solid #33414c;
+    border-bottom: 2px solid #33414c;
+    content: "";
+    position: relative;
+    cursor: pointer;
+    transform: rotate(315deg);
+    width: 10px;
+    height: 10px;
+    border-left: 0;
+    border-radius: 0;
+    border-top: 0;
+    display: inline-block;
+    transition: all ease .4s;
+  }
+  .sub-menu, .sub-menu:hover {
+    transform: none;
+  }
+  .oildrop-navigation li.menu-item-has-children:hover .sub-menu {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .oildrop-navigation li.menu-item-has-children .sub-menu {
+    left: 100%
+  }
+  .oildrop-navigation li.menu-item-has-children .sub-menu.open {
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+  }
+  .oildrop-navigation ul li.menu-item-has-children:hover > a {
+    color: #0eb0ee;
+  }
+  .oildrop-navigation ul li.menu-item-has-children:hover .dropdown-arrow:before {
+    border-color: #0eb0ee
+  }
+  .sub-menu.open {
+    opacity: 1;
+    transform: translateX(0);
+    height: 100vh;
+    background-color: #fff;
+    visibility: visible;
+  }
+  .oildrop-header {
+    padding: 10px 0;
+  }
+  .sub-menu .btn-prev {
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+  }
+  .sub-menu .btn-prev:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    display: inline-block;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    background: #0eb0ee;
+    border-radius: 50px;
+    top: 19%;
+    cursor: pointer;
+  }
+  .sub-menu .btn-prev:after {
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    left: 12px;
+    content: " ";
+    top: 20px;
+    transform: rotate(135deg);
+    background: none;
+  }
+  .sub-menu li a {
+    padding: 13px 0;
+  }
+  .oildrop-header .close-icon {
+    top: 0;
+    width: 25px;
+    height: 45px;
+    position: relative;
+    float: right;
+    transition: all ease .4s;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    padding: 0;
+  }
+  .close-icon:before, .close-icon:after {
+    position: absolute;
+    top: 0;
+    left: 13px;
+    width: 2.5px;
+    height: 100%;
+    background-color: #3C424F;
+    transform: rotate(45deg);
+    content: "";
+    border-radius: 10px;
+    z-index: 1;
+  }
+  .close-icon:after {
+    transform: rotate(-45deg);
+  }
+  .topbar .oildrop-btn {
+    min-width: 70px;
+  }
+   .topbar .oildrop-btn i {
+    margin: 0;
+   }
+  .topbar .oildrop-btn span {
+    display: none;
+  }
+  .top-menu a:last-child {
+    display: none;
+  }
+  .offers [class*="col-"] .row {
+    margin-top: 0;
+  }
+  .recent-posts-content {
+    padding: 15px;
+  }
+  .testimonials [class*="col-"]:first-child {
+    margin-bottom: 30px;
+  }
+  .default-section .bullet-list ul li {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width:991px) {
+  .caption-wrap h2 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+  .banner .item {
+    height: 600px;
+    min-height: 600px;
+  }
+  .banner .item .caption-wrap::before {
+    width: 480px;
+    height: 130%;
+    background-size: contain;
+  }
+  .section-title {
+    margin-bottom: 15px;
+  }
+  .about-us .btn-block {
+    padding-top: 15px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .our-projects [class*="col-"]:first-child, .our-projects [class*="col-"]:last-child {
+    margin-bottom: 0;
+  }
+  .our-projects [class*="col-"] {
+    margin-bottom: 30px;
+  }
+  .our-blog .blog-ink .btn-block {
+    padding-bottom: 30px;
+  }
+  .oildrop-getaquote {
+    margin: 30px 0;
+  }
+  .contact-form {
+    padding-bottom: 30px;
+  }
+  .post-navigation {
+    margin-bottom: 30px;
+  }
+  .blog-banner-content .banner-title a {
+    font-size: 52px;
+  }
+}
+@media screen and (max-width:767px) {
+  .banner .item {
+    height: 450px;
+    min-height: 450px;
+  }
+  .caption-wrap h2 {
+    font-size: 50px;
+    line-height: normal;
+  }
+  .caption-wrap .caption-inner {
+    max-width: 100%;
+  }
+  .owl-carousel .owl-dots {
+    bottom: 0;
+  }
+  .caption-wrap h2, .caption-wrap span, .caption-wrap p {
+    transition: all ease .8s;
+  }
+  .owl-carousel .owl-nav  {
+    display: none;
+  }
+  section {
+    padding: 35px 0;
+  } 
+  .section-title h2 {
+    font-size: 36px;
+  }
+  .list-item {
+    min-height: auto;
+  }
+  .our-projects [class*="col-"] {
+    margin-bottom: 15px;
+  }
+  .section-title h2 span {
+    display: inline-block;
+  }
+  .our-blog .blog-ink .btn-block {
+    padding-bottom: 0;
+  }
+  .our-blog [class*="col-"] {
+    margin-bottom: 30px;
+  }
+  .our-blog .blog-ink {
+    padding-top: 0;
+  }
+  .oildrop-getaquote {
+    padding: 20px;
+  }
+  .team [class*="col-"] {
+    margin-bottom: 15px;
+  }
+  .default-section .bullet-list ul li {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .portfolio-content {
+    padding: 15px;
+  }
+  .post-navigation .nav-next, .post-navigation .nav-previous {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .post-navigation .nav-previous a, .post-navigation .nav-next a {
+    margin: 0;
+  }
+  .post-navigation .nav-links {
+    display: block;
+  }
+  .blog-content {
+    padding: 15px;
+  }
+  .page-title h2 {
+    font-size: 40px;
+  }
+  .portfolio .filters-button-group .button {
+    font-size: 14px;
+    margin: 0 5px 15px 0;
+    padding: 6px 15px;
+  }
+  .grid .element-item {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .blog-banner-content .banner-title a {
+    font-size: 40px;
+  } 
+  .blog-banner-content {
+    height: 280px;
+    padding: 15px;
+  }
+}
+@media screen and (max-width:575px) {
+  .topbar {
+    display: none;
+  }
+  .banner .item {
+    height: 350px;
+    min-height: 350px;
+  }
+  .caption-wrap h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+  .banner .item .caption-wrap::before {
+    width: 390px;
+    background-size: contain;
+  }
+  .section-title h2 {
+    font-size: 32px;
+  }
+  .section-title {
+    padding-bottom: 0;
+  }
+  .page-title h2 {
+    font-size: 36px;
+  }
+  .blog-banner-content .banner-title a {
+    font-size: 34px;
+  } 
+}
+@media screen and (max-width:479px) {
+  .caption-wrap h2 {
+    font-size: 30px;
+  }
+  .banner .item {
+    height: 300px;
+    min-height: 300px;
+  }
+  .banner .item .caption-wrap::before {
+    display: none;
+  }
+  .section-title h2 {
+    font-size: 28px;
+  }
+  .newsletter-form .submit-btn {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding-top: 15px;
+  }
+  .newsletter-form .submit-btn input {
+    margin-left: 0;
+  }
+  .page-title h2 {
+    font-size: 30px;
+  }
+  .blog-banner-content .banner-title a {
+    font-size: 32px;
+  } 
+
+}
+@media screen and (max-width:359px) {
+  .section-title h2 {
+    font-size: 26px;
+  }
+  .page-title h2 {
+    font-size: 28px;
+  }
+  .blog-banner-content .banner-title a {
+    font-size: 30px;
+  } 
+  
+}

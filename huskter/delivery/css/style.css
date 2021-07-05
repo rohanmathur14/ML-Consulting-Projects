@@ -31,7 +31,7 @@ button:focus,
 }
 
 a:hover {
-    color: #e8505b
+    color: #8dbd3c
 }
 
 a {
@@ -99,7 +99,7 @@ h1 {
 .section-title span {
     font-size: 25px;
     font-weight: 600;
-    color: #e8505b;
+    color: #8dbd3c;
     margin-bottom: 20px
 }
 
@@ -168,7 +168,7 @@ p {
     z-index: 5;
     transition: all .4s ease-in-out;
     border: none;
-    background: #e8505b;
+    background: #8dbd3c;
     overflow: hidden
 }
 
@@ -204,7 +204,7 @@ p {
 .scroll-top {
     width: 45px;
     height: 45px;
-    background: #e8505b;
+    background: #8dbd3c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -306,7 +306,7 @@ p {
     width: 200%;
     height: 100%;
     border-style: solid;
-    border-color: #e8505b #e8505b #ddd;
+    border-color: #8dbd3c #8dbd3c #ddd;
     border-radius: 50%;
     border-width: 6px
 }
@@ -1394,7 +1394,7 @@ p {
 .navbar-nav .nav-item .sub-menu li a.active,
 .navbar-nav .nav-item .sub-menu li a:hover {
     padding-left: 25px;
-    color: #e8505b
+    color: #8dbd3c
 }
 
 .navbar-nav .sub-nav-toggler {
@@ -1646,7 +1646,7 @@ p {
 }
 
 .about-section .about-content .counter-up {
-    background: #e8505b;
+    background: #8dbd3c;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -1881,8 +1881,8 @@ p {
 }
 
 .footer .footer-widget .download-btns a:hover {
-    background: #e8505b;
-    border-color: #e8505b
+    background: #8dbd3c;
+    border-color: #8dbd3c
 }
 
 .footer .footer-widget .download-btns a .icon {
@@ -1917,7 +1917,7 @@ p {
 }
 
 .footer .footer-widget ul.links li a:hover {
-    color: #e8505b
+    color: #8dbd3c
 }
 
 .footer .footer-shape .shape.shape-2 {

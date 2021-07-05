@@ -234,7 +234,7 @@ header .header-scrolled .light-logo{display:none;}
 
 
 .tatsu-section-background {
-    background-image: url(https://exponentwptheme.com/corporate/wp-content/uploads/sites/2/2018/11/Home-Hero.jpg);
+    background-image: url(../images/Home-Hero.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: top center;
@@ -249,7 +249,7 @@ header .header-scrolled .light-logo{display:none;}
 }
 
 .tatsu-section-overlay {
-    background: rgba(34,147,215,0.5);
+    background: rgba(34,147,215,0.2);
     position: absolute;
     top: 0;
     left: 0;
@@ -401,7 +401,7 @@ font-size: 36px;border-radius: 50%;display: flex;align-items: center;justify-con
 
 
 .corporate-work .tatsu-section-background{
-    background-image: url(https://exponentwptheme.com/corporate/wp-content/uploads/sites/2/2018/11/Home-Hero.jpg);
+    background-image: url(../images/section4.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: top center;

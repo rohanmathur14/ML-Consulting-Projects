@@ -2,10 +2,10 @@ $(document).ready(function() {
   "use strict";
 
   //Header Sticky
-  $(".oildrop-header").sticky();
+  $(".Nexus Water-header").sticky();
 
   //Add And Remove Class Script
-  $('.oildrop-toggle').click(function() {
+  $('.Nexus Water-toggle').click(function() {
     $(this).toggleClass('active');
     $('.header-wrap').toggleClass('open');
   });
@@ -18,15 +18,15 @@ $(document).ready(function() {
 
   // Outside Click Remove Class Script
   $(document).on('click', function(event) {
-    if (!$(event.target).closest('.header-wrap, .oildrop-toggle').length)  {
+    if (!$(event.target).closest('.header-wrap, .Nexus Water-toggle').length)  {
       $('.header-wrap').removeClass('open');
-      $('.oildrop-toggle').removeClass('active');
+      $('.Nexus Water-toggle').removeClass('active');
     }
   });
 
   jQuery('.close-icon').on('click', function() {
     jQuery('.header-wrap').removeClass('open');
-    jQuery('.oildrop-toggle').removeClass('active');
+    jQuery('.Nexus Water-toggle').removeClass('active');
   });
 
   // Sub Menu Scripts

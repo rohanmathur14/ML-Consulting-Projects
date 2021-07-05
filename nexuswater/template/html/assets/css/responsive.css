@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width:1199px) {
-  .oildrop-navigation {
+  .Nexus Water-navigation {
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -27,7 +27,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
     z-index: 11;
   }
-  .header-wrap.open .oildrop-navigation {
+  .header-wrap.open .Nexus Water-navigation {
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
@@ -35,7 +35,7 @@
     -ms-box-shadow: 0 0 0.9375rem rgba(0, 0, 0, 0.15);
     box-shadow: 0 0 0.9375rem rgba(0, 0, 0, 0.15);
   }
-  .oildrop-navigation > ul {
+  .Nexus Water-navigation > ul {
     position: relative;
   }
   .header-right ul li {
@@ -44,7 +44,7 @@
     padding: 0;
     border-bottom: 1px solid #d2d2d2;
   }
-  .oildrop-navigation ul li.menu-item-has-children > a {
+  .Nexus Water-navigation ul li.menu-item-has-children > a {
     display: inline-block;
     padding: 13px 0;
     color: #3C424F;
@@ -59,7 +59,7 @@
     transition: all ease .6s;
     box-shadow: none;
   }
-  .oildrop-navigation li .dropdown-arrow {
+  .Nexus Water-navigation li .dropdown-arrow {
     float: right;
     height: 46px;
     width: 49px;
@@ -69,7 +69,7 @@
     margin-top: 3px;
     text-align: center;
   }
-  .oildrop-navigation li .dropdown-arrow:before {
+  .Nexus Water-navigation li .dropdown-arrow:before {
     border: none;
     border-right: 2px solid #33414c;
     border-bottom: 2px solid #33414c;
@@ -88,22 +88,22 @@
   .sub-menu, .sub-menu:hover {
     transform: none;
   }
-  .oildrop-navigation li.menu-item-has-children:hover .sub-menu {
+  .Nexus Water-navigation li.menu-item-has-children:hover .sub-menu {
     opacity: 0;
     visibility: hidden;
   }
-  .oildrop-navigation li.menu-item-has-children .sub-menu {
+  .Nexus Water-navigation li.menu-item-has-children .sub-menu {
     left: 100%
   }
-  .oildrop-navigation li.menu-item-has-children .sub-menu.open {
+  .Nexus Water-navigation li.menu-item-has-children .sub-menu.open {
     opacity: 1;
     visibility: visible;
     left: 0;
   }
-  .oildrop-navigation ul li.menu-item-has-children:hover > a {
+  .Nexus Water-navigation ul li.menu-item-has-children:hover > a {
     color: #0eb0ee;
   }
-  .oildrop-navigation ul li.menu-item-has-children:hover .dropdown-arrow:before {
+  .Nexus Water-navigation ul li.menu-item-has-children:hover .dropdown-arrow:before {
     border-color: #0eb0ee
   }
   .sub-menu.open {
@@ -113,7 +113,7 @@
     background-color: #fff;
     visibility: visible;
   }
-  .oildrop-header {
+  .Nexus Water-header {
     padding: 10px 0;
   }
   .sub-menu .btn-prev {
@@ -149,7 +149,7 @@
   .sub-menu li a {
     padding: 13px 0;
   }
-  .oildrop-header .close-icon {
+  .Nexus Water-header .close-icon {
     top: 0;
     width: 25px;
     height: 45px;
@@ -177,13 +177,13 @@
   .close-icon:after {
     transform: rotate(-45deg);
   }
-  .topbar .oildrop-btn {
+  .topbar .Nexus Water-btn {
     min-width: 70px;
   }
-   .topbar .oildrop-btn i {
+   .topbar .Nexus Water-btn i {
     margin: 0;
    }
-  .topbar .oildrop-btn span {
+  .topbar .Nexus Water-btn span {
     display: none;
   }
   .top-menu a:last-child {
@@ -236,7 +236,7 @@
   .our-blog .blog-ink .btn-block {
     padding-bottom: 30px;
   }
-  .oildrop-getaquote {
+  .Nexus Water-getaquote {
     margin: 30px 0;
   }
   .contact-form {
@@ -294,7 +294,7 @@
   .our-blog .blog-ink {
     padding-top: 0;
   }
-  .oildrop-getaquote {
+  .Nexus Water-getaquote {
     padding: 20px;
   }
   .team [class*="col-"] {

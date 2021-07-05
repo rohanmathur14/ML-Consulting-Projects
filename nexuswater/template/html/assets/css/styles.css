@@ -206,7 +206,7 @@ label {
   width: 100%;
   height: 100%;
 }
-.oildrop-btn {
+.Nexus Water-btn {
   display: inline-block;
   vertical-align: middle;
   font-family: "Kanit", sans-serif;
@@ -224,7 +224,7 @@ label {
   text-align: center;  
   min-width: 200px;
 }
-.oildrop-btn:hover, .oildrop-btn:focus {
+.Nexus Water-btn:hover, .Nexus Water-btn:focus {
   background-color: #30355d;
   color: #ffffff;
 }
@@ -389,13 +389,13 @@ label {
 .top-menu a span {
   margin-right: 12px;
 }
-.topbar .oildrop-btn {
+.topbar .Nexus Water-btn {
   border-radius: 0;
   font-size: 14px;
   min-width: 270px;
   padding: 14px;
 }
-.topbar .oildrop-btn i {
+.topbar .Nexus Water-btn i {
   margin-right: 10px;
 }
 .topbar i {
@@ -404,8 +404,8 @@ label {
   vertical-align: middle;
   margin-right: 5px;
 }
-/* Oildrop Header */
-.oildrop-header { 
+/* Nexus Water Header */
+.Nexus Water-header { 
   background-color: #30355d; 
   position: relative;
   margin: 0 auto;
@@ -417,35 +417,35 @@ label {
   -ms-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 }
-.is-sticky .oildrop-header {
+.is-sticky .Nexus Water-header {
   -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
   -ms-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 }
-.oildrop-header .oildrop-brand img {
+.Nexus Water-header .Nexus Water-brand img {
   max-height: 64px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
-.is-sticky .oildrop-header .oildrop-brand img {
+.is-sticky .Nexus Water-header .Nexus Water-brand img {
   max-height: 30px;
 }
-.is-sticky .oildrop-navigation ul li.menu-item-has-children > a {
+.is-sticky .Nexus Water-navigation ul li.menu-item-has-children > a {
   padding: 20px 18px;
 }
 .header-right {
   text-align: right;
 }
-.oildrop-navigation {
+.Nexus Water-navigation {
   position: relative;
   display: inline-block;
   vertical-align: middle;
 }
-.oildrop-navigation ul li {
+.Nexus Water-navigation ul li {
   position: relative;
   display: inline-block;
 }
-.oildrop-navigation ul li.menu-item-has-children > a {
+.Nexus Water-navigation ul li.menu-item-has-children > a {
   color: #fff;
   text-transform: uppercase;
   font-size: 14px;
@@ -453,7 +453,7 @@ label {
   padding: 42px 18px;
   display: inline-block;
 }
-.oildrop-navigation ul li a:hover, .oildrop-navigation ul li a:focus, .oildrop-navigation ul li:hover > a, .oildrop-navigation ul li:focus > a {
+.Nexus Water-navigation ul li a:hover, .Nexus Water-navigation ul li a:focus, .Nexus Water-navigation ul li:hover > a, .Nexus Water-navigation ul li:focus > a {
   color: #0eb0ee;
 }
 .sub-menu {
@@ -473,7 +473,7 @@ label {
   -ms-transform: translateY(30px);
   transform: translateY(30px);
 }
-.oildrop-navigation li.menu-item-has-children:hover .sub-menu {
+.Nexus Water-navigation li.menu-item-has-children:hover .sub-menu {
   opacity: 1;
   visibility: visible;
   -webkit-transform: translateY(0);
@@ -496,14 +496,14 @@ label {
 .sub-menu li a:hover, .sub-menu li a:focus {
   color: #0eb0ee;
 }
-.oildrop-toggle {
+.Nexus Water-toggle {
   display: inline-block;
   vertical-align: middle;
   width: 25px;
   height: 16px;
   margin-left: 10px;
 }
-.oildrop-toggle span {
+.Nexus Water-toggle span {
   display: block;
   width: 100%;
   height: 2px;
@@ -514,10 +514,10 @@ label {
   -ms-transition: all ease .4s;
   transition: all ease .4s;
 }
-.oildrop-toggle.active span {
+.Nexus Water-toggle.active span {
   background: none;
 }
-.oildrop-toggle span::before, .oildrop-toggle span::after {
+.Nexus Water-toggle span::before, .Nexus Water-toggle span::after {
   position: absolute;
   top: -7px;
   left: 0;
@@ -530,25 +530,25 @@ label {
   transition: all ease .4s;
   z-index: 1;
 }
-.oildrop-toggle span::after {
+.Nexus Water-toggle span::after {
   top: 7px;
 }
-.oildrop-toggle.active span::before {
+.Nexus Water-toggle.active span::before {
   -webkit-transform: translateY(7px) rotateZ(-45deg);
   -ms-transform: translateY(7px) rotateZ(-45deg);
   transform: translateY(7px) rotateZ(-45deg);
 }
-.oildrop-toggle.active span::after {
+.Nexus Water-toggle.active span::after {
   -webkit-transform: translateY(-7px) rotateZ(45deg);
   -ms-transform: translateY(-7px) rotateZ(45deg);
   transform: translateY(-7px) rotateZ(45deg);
 }
-.oildrop-navigation ul > li > a .menu-text {
+.Nexus Water-navigation ul > li > a .menu-text {
     display: inline-block;
     vertical-align: middle;
     overflow: hidden;
 }
-.oildrop-navigation ul > li > a .menu-text-wrap {
+.Nexus Water-navigation ul > li > a .menu-text-wrap {
     display: inline-block;
     position: relative;
     -webkit-transition: all ease .3s;
@@ -562,12 +562,12 @@ label {
   content: attr(data-hover);
   z-index: 1;
 }
-.oildrop-navigation ul > li:hover > a .menu-text-wrap {
+.Nexus Water-navigation ul > li:hover > a .menu-text-wrap {
   -webkit-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
   transform: translateY(-100%);
 }
-.header-right .oildrop-logo img {
+.header-right .Nexus Water-logo img {
   width: 200px;
 }
 section {
@@ -1344,13 +1344,13 @@ section {
 .quote .social-icons ul li a:hover {
   color: #fff;
 }
-.oildrop-getaquote {
+.Nexus Water-getaquote {
   margin-top: -165px;
   padding: 33px 40px;
   border-top: solid 4px #0eb0ee;
   background-color: #ffffff;
 }
-.oildrop-getaquote h2 {
+.Nexus Water-getaquote h2 {
   display: block;
   font-weight: 900;
   text-align: center;
@@ -1359,7 +1359,7 @@ section {
   font-family: "Roboto", sans-serif;
   margin-bottom: 30px;
 }
-.oildrop-getaquote textarea.form-control {
+.Nexus Water-getaquote textarea.form-control {
   height: 212px;
   resize: none;
 }

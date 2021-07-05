@@ -2635,3 +2635,7 @@ section {
     	padding: 14px 28px;
 	}
 }
+
+footer .logo img{
+	width: 200px;
+}

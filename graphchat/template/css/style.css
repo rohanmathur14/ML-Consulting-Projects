@@ -1988,6 +1988,22 @@ p{font-size:13px;}
 
 }
 
+.footer-icon{
+    width: 100%;
+}
+.footer-icon ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer-icon ul li {
+    margin-right: 20px;
+}
+.footer-icon ul li a{
+    text-decoration: none;
+    color: #fff;
+}
 
 
 

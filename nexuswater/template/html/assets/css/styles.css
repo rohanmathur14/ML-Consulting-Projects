@@ -1627,6 +1627,9 @@ blockquote cite {
 .portfolio .owl-carousel .owl-nav span {
   line-height: 27px;
 }
+.portfolio .item .img-block img{
+  width: 100%;
+}
 .contact-right-info {
   display: inline-block;
   width: 100%;

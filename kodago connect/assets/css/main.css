@@ -1671,6 +1671,17 @@ section {
 	background-position: top center;
 	background-repeat: no-repeat
 }
+@media only screen and (min-width: 1600px){
+	.hero-section {
+		position: relative;
+		z-index: 1;
+		padding: 160px 0 50px;
+		background-image: url(../img/hero/hero-bg.svg);
+		background-size: 104% 104%;
+		background-position: -40px -20px;
+		background-repeat: no-repeat
+	}
+}
 
 .hero-section .hero-content {
 	margin-bottom: 100px
@@ -2200,6 +2211,14 @@ section {
 	background-position: top right;
 	padding-top: 260px;
 	margin-top: 100px
+}
+@media only screen and (min-width: 1600px){
+	.footer {
+		background-image: url(../img/footer/footer-bg.svg);
+		background-size: 120% 120%;
+		background-position: -250px 20px;
+		background-repeat: no-repeat
+	}
 }
 
 .footer .widget-wrapper .footer-widget {

@@ -190,6 +190,7 @@ header .nav-item{
     background-color: #ffffff !important;
     -webkit-box-shadow: 0 4px 6px 0 rgb(12 0 46 / 6%);
     box-shadow: 0 4px 6px 0 rgb(12 0 46 / 6%);
+    margin-top: -20px !important;
 }
 
 .start-header.header-scrolled{margin-top:0;    padding: 10px 0;}
@@ -308,7 +309,7 @@ letter-spacing: -0.003em;line-height: 46px; padding: 0px 0px;}
 
 p{letter-spacing: 0;line-height: 30px;color: rgba(132,137,145,1);font-weight: 400;font-size: 14px;}
 
-.corporate-business .text-center p{width: 50%;margin:0 auto;}
+.corporate-business .text-center p{width: 100%;margin:0 auto;}
 
 .corporate-business-shape{background: rgba(34,147,215,1);box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 0%);
 border-color: rgba(34,147,215,1);font-size: 26px;width: 60px;height: 60px;    position: relative;
@@ -628,7 +629,7 @@ transition: all .2s ease;position:relative;left:0;    margin: -4px 0;font-size:1
 
 @media (max-width:991px) {
 
-.mobile-header{display:block;}
+.mobile-header{display:block;margin-top: 0px;}
 .desktop-header{display:none;}
 
 .mobile-header .menttoggle a {
@@ -780,7 +781,7 @@ h2{font-size:25px;}
 
 .corporate-section-paid {padding:80px 0px 30px 0px;}
 .corporate-section-one h1{font-size: 20px;line-height: 36px;width: 100%;}
-.corporate-section-one p{width:100%;    font-size: 14px;}
+.corporate-section-one p{width:100%;    font-size: 14px; line-height: 2;}
 .tatsu-button{padding: 12px 30px;font-size: 12px;}
 h2 {font-size: 18px;line-height:25px;}
 p{font-size:13px;line-height:25px;}

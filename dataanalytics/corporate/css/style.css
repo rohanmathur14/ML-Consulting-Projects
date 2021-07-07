@@ -190,7 +190,6 @@ header .nav-item{
     background-color: #ffffff !important;
     -webkit-box-shadow: 0 4px 6px 0 rgb(12 0 46 / 6%);
     box-shadow: 0 4px 6px 0 rgb(12 0 46 / 6%);
-    margin-top: -20px !important;
 }
 
 .start-header.header-scrolled{margin-top:0;    padding: 10px 0;}
@@ -639,6 +638,9 @@ transition: all .2s ease;position:relative;left:0;    margin: -4px 0;font-size:1
     margin-right: 0px;
     font-size: 14px;
     top:2px;
+}
+.header-scrolled {
+    margin-top: -20px !important;
 }
 .menutoggle {
     display: block;

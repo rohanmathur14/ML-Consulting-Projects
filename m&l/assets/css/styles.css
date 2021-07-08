@@ -953,7 +953,7 @@ text-align: right;
 }
 .how-work .inner-block {
   text-align: center;
-  padding: 20px 20px 0px 20px; 
+  padding:  40px 20px 20px 20px; 
 }
 .how-work [class*="col-"]:nth-child(1) {
   background-color: #fff;

@@ -1087,6 +1087,7 @@ section {
   font-weight: 500;
   line-height: 1.54em;
   margin-bottom: 12px;
+  color: #fff;
 }
 .join-us p {
   font-size: 18px;
@@ -1595,11 +1596,14 @@ top: 30px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
-
+.join-us h2 {
+  font-size: 36px;
+  line-height: 1.3em !important;
+}
 .join-us p {
   font-size: 16px;
   font-weight: 400;
-  line-height: 0.2em !important;
+  line-height: 1.3em !important;
   color: #54595F;
 }
 }

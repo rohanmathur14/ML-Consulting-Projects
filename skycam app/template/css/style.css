@@ -1530,6 +1530,11 @@ p {
     padding-right: 55px
 }
 
+.section-one .hero-img img{
+    height: 100vh;
+    object-fit: cover;
+}
+
 @media only screen and (min-width:992px) and (max-width:1199px) {
     .section-one .hero-content p {
         padding-right: 0
@@ -1556,6 +1561,10 @@ p {
 @media(max-width:767px) {
     .section-one .hero-img img {
         width: 100%
+    }
+    .section-one .hero-img img{
+        height: 50vh;
+        object-fit: cover;
     }
 }
 
@@ -1863,7 +1872,7 @@ p {
 .footer .footer-widget .download-btns a {
     display: inline-flex;
     align-items: center;
-    padding: 14px 30px;
+    padding: 5px 20px;
     border-radius: 10px;
     background: rgba(255, 255, 255, .08);
     border: 1px solid #fff;
@@ -1883,7 +1892,7 @@ p {
 }
 
 .footer .footer-widget .download-btns a .text {
-    font-size: 10px;
+    font-size: 8px;
     font-weight: 400;
     color: rgba(255, 255, 255, .7)
 }
@@ -1891,7 +1900,7 @@ p {
 .footer .footer-widget .download-btns a .text b {
     display: block;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 12px;
     color: #fff
 }
 

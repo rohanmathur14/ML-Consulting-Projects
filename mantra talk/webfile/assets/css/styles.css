@@ -653,6 +653,13 @@ section {
   height: 575px;
   min-height: 575px;
 }
+.banner .item {
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 230% -30%;
+    height: 575px;
+    min-height: 575px;
+}
 .banner-content-inner {
   width: 600px;
 }
@@ -949,7 +956,7 @@ section {
   padding: 15px;
 }
 .search-dish {
-  background-color: #f7f7f7;
+  background-color: #fff;
 }
 .search-dish .col-sm-3 img{
   width: 100%;
@@ -1070,6 +1077,9 @@ section {
     font-size: 18px;
     font-weight: 500;
     line-height: 1.33em;
+}
+.featured-cities{
+  background-color: #f7f7f7;
 }
 .featured-cities [class*="col-"] .single-city {
   margin-bottom: 30px;

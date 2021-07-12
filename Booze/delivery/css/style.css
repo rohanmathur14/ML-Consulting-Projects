@@ -1172,7 +1172,7 @@ p {
 }
 
 .navbar-brand img {
-    max-width: 180px
+    width: 70px
 }
 
 .navbar-toggler {
@@ -1855,6 +1855,9 @@ p {
 .footer .footer-widget .logo a {
     display: inline-block;
     margin-bottom: 25px
+}
+.footer .footer-widget .logo a img{
+    width: 100px;
 }
 
 .footer .footer-widget .download-btns a {

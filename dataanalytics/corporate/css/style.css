@@ -18,6 +18,9 @@ button:focus{outline:none;}
 .topbar a {color:#fff;font-size:14px;}
 .phone-number{margin-right:35px;}
 
+.container-box{
+    padding: 0px 12%;
+}
 
 .right-topbar .dropdown-menu {
     padding-top: 0px;

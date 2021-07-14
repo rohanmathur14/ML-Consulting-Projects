@@ -1857,6 +1857,10 @@ p {
     margin-bottom: 25px
 }
 
+.footer .footer-widget .logo a img{
+    width: 120px;
+}
+
 .footer .footer-widget .download-btns a {
     display: inline-flex;
     align-items: center;

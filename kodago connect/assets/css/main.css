@@ -1965,6 +1965,10 @@ section {
 	line-height: 28px
 }
 
+.feature-extended-section .single-feature-extended .icon img{
+	width: 70px;
+}
+
 .pricing-section {
 	position: relative;
 	z-index: 1

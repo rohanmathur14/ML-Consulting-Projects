@@ -60,6 +60,9 @@ h2,h3,h4,h5{
 	height: 100%;
 	width: 100%;
 }
+.row .col-sm-8{
+	width: 64%;
+}
 .row .col-sm-6{
 	width: 48%;
 }
@@ -441,6 +444,37 @@ header nav ul li .innernav.marketplace.help .content{
 }
 .section2 .content img{
 	width: 150px;
+}
+
+.section3{
+	width: 100%;
+	background: var(--grey);
+	padding: 0px 10%;
+	padding-top: 10rem;
+	color: #fff;
+}
+.section3 h2{
+	font-size: 46px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.section3 p{
+	font-size: 16px;
+	margin-bottom: 20px;
+	line-height: 22px;
+}
+.section3 a.first{
+	font-size: 11px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	padding-bottom: 6px;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+	text-transform: uppercase;
+}
+.section3 video{
+	width: 100%;
+	margin-top: 20px;
 }
 
 

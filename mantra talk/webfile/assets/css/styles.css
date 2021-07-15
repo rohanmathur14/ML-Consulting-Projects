@@ -650,15 +650,13 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 575px;
-  min-height: 575px;
 }
 .banner .item {
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: 230% -30%;
-    height: 575px;
-    min-height: 575px;
+    height: 750px;
+    min-height: 750px;
 }
 .banner-content-inner {
   width: 600px;

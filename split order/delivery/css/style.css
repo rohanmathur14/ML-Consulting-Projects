@@ -1592,7 +1592,7 @@ p {
 }
 
 .about-section .about-img img {
-    width: 100%
+    width: 600px;
 }
 
 .about-section .about-content {
@@ -1716,10 +1716,13 @@ p {
     .delivery-img {
         margin-bottom: 50px
     }
+    .delivery-img img {
+    width: 100%
+}
 }
 
 .delivery-img img {
-    width: 100%
+    width: 500px
 }
 
 .testimonial-section .testimonial-wrapper {

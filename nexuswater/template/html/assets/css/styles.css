@@ -735,8 +735,9 @@ section {
   color: #aab9cd;
   font-family: "Kanit", sans-serif;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.0001;
+  line-height: 20px;
   text-transform: uppercase;
 }
 .list-item {

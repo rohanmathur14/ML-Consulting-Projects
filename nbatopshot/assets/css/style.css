@@ -753,6 +753,57 @@ header nav ul li .innernav.marketplace.help .content{
 	transform: scale(0.5);
 }
 
+.section6{
+	width: 100%;
+	padding: 50px 10%;
+	background: var(--grey);
+	color: #fff;
+	text-align: center;
+}
+.section6 h2{
+	font-size: 32px;
+	letter-spacing: 1px;
+}
+.section6 .head{
+	position: relative;
+	margin-top: 15px;
+}
+.section6 .head.head2{
+	margin-top: 25px;
+}
+.section6 .head h4{
+	padding: 10px 24px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	position: relative;
+	background: var(--grey);
+	display: inline-block;
+	z-index: 10;
+}
+.section6 .head .bar:before{
+	content: "";
+	position: absolute;
+	top: 52%;
+	left: 0px;
+	transform: translateY(-50%);
+	width: 100%;
+	height: 5px;
+	background: #fff;
+	opacity: 0.8;
+	z-index: 8;
+}
+.section6 .team-logos{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	overflow-y: hidden;
+}
+.section6 .team-logos img{
+	width: 55px;
+}
+
 footer{
 	width: 100%;
 	padding: 60px 8%;
@@ -1188,6 +1239,15 @@ footer .footer-img-logo{
 	.section5 h2{
 		font-size: 18px;
 		letter-spacing: 1px;
+	}
+
+	.section6 h2{
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+	.section6 .team-logos img{
+		width: 45px;
+		margin-right: 10px;
 	}
 
 	footer .mainrow{

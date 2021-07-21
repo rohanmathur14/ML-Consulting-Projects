@@ -2175,7 +2175,8 @@ section {
 }
 
 .testimonial-section .testimonial-active-wrapper .testimonial-active .single-testimonial .testimonial-img img {
-	max-width: 100%
+	width: 60%;
+	border-radius: 10px;
 }
 
 .testimonial-section .testimonial-active-wrapper .testimonial-active .single-testimonial .testimonial-img .quote {

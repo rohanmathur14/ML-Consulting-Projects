@@ -3865,6 +3865,10 @@ section
 {
 	margin-top: -14px;
 }
+.footer_logo_container img
+{
+	width: 170px;
+}
 .footer_about_text
 {
 	margin-top: 31px;
@@ -4359,4 +4363,9 @@ img.logo{
 }
 .header.scrolled img.logo{
 	width: 100px;
+}
+
+.logo_container img{
+	width: 160px;
+	padding: 10px 0px;
 }

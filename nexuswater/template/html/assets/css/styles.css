@@ -2108,6 +2108,8 @@ ul.share-icons > li > a {
 .portfolio-img a img {
   width: 100%;
   max-width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
 .portfolio-zoom:hover, .portfolio-zoom:focus, .portfolio-info:hover, .portfolio-info:focus {
   display: inline-block;
@@ -2294,6 +2296,15 @@ ul.share-icons > li > a {
     font-weight: 700;
         max-width: 100%;
     color: #ffffff;
+}
+
+@media only screen and (max-width: 600px){
+  .portfolio-img a img {
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
 }
 
 

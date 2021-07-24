@@ -1,16 +1,153 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
 *{
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 	font-family: 'Open Sans', sans-serif;
 }
+body{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.contentPart{
+	position: absolute;
+	left: 100%;
+	top: 0;
+	opacity: 0.5;
+	transition: 0.6s;
+}
+.contentPart .content{
+	position: relative;
+	left: 500px;
+	transition: 0.8s;
+	transition-delay: 0.1s;
+}
+.contentPart.active{
+	left: 0;
+	opacity: 1;
+}
+.contentPart.active .content{
+	left: 0;
+}
+.back-menu{
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}
+.back-menu button{
+	background: rgba(0, 0, 0, 0.4);
+	border: none;
+	outline: none;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 8px 15px;
+	cursor: pointer;
+}
+section.home{
+	width: 100%;
+	height: 100vh;
+}
+section.home .row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row;
+	height: 100%;
+}
+section.home .row .col-2{
+	width: 20%;
+	/*background: linear-gradient(to top, rgba(0,0,0,1) 20%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0)), url('../img/cricket.jpg') center center no-repeat;
+	background-size: cover;	*/
+	background: linear-gradient(to top, rgba(0,0,0,1) 20%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0));
+	height: 100%;
+	position: relative;
+	transition: 0.6s;
+	cursor: pointer;
+	overflow: hidden;
+}
+section.home .row .col-2 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: inline-block;
+	position: absolute;
+	z-index: -5;
+	transition: 0.6s;
+}
+section.home .row .col-2:hover img{
+	transform: scale(1.1);
+}
+section.home .row .col-2:hover{
+		background: linear-gradient(to top, rgba(0,0,0,1) 5%, rgba(0,0,0,0.5) 30%, rgba(0,0,0,0));
+}
+section.home .row .col-2:hover .text{
+	bottom: 30%;
+}
+section.home .row .col-2:hover h2{
+	letter-spacing: 5px;
+}
+section.home .row .col-2 .text{
+	position: absolute;
+	bottom: 25%;
+	left: 50%;
+	transform: translateX(-50%);
+	transition: 0.6s;
+}
+section.home .row .col-2 h2{
+	position: relative;
+	transform: rotate(-90deg);
+  -webkit-text-stroke: 0.1px #fff;
+  color:transparent;
+	font-size: 50px;
+	font-weight: 800;
+	text-transform: uppercase;
+	font-style: italic;
+	font-family: 'Bowlby One SC', cursive;
+	letter-spacing: 2px;
+	opacity: 0.8;
+	transition: 0.6s;
+}
+section.home .row .col-2.cricket h2{
+	bottom: -70px;
+}
+section.home .row .col-2.football h2{
+	bottom: -40px;
+}
+section.home .row .col-2.hockey h2{
+	bottom: -70px;
+}
+section.home .row .col-2.tennis h2{
+	bottom: -80px;
+}
 section.main{
 	width: 100%;
 	height: 100vh;
 	overflow: hidden;
-	background: linear-gradient(to top, rgba(255,255,255,0.21), rgba(255,255,255,0.21)), url(../img/back.jpeg) center center no-repeat;
+}
+section.main.cricket{
+	background: linear-gradient(to top, rgba(255,255,255,0.21), rgba(255,255,255,0.21)), url(../img/cricket-back.jpeg) center center no-repeat;
+	background-size: cover;
+}
+section.main.football{
+	background: linear-gradient(to top, rgba(255,255,255,0.21), rgba(255,255,255,0.21)), url(../img/football-back.jpg) center center no-repeat;
+	background-size: cover;
+}
+section.main.hockey{
+	background: linear-gradient(to top, rgba(255,255,255,0.21), rgba(255,255,255,0.21)), url(../img/hockey-back.jpg) center center no-repeat;
+	background-size: cover;
+}
+section.main.tennis{
+	background: linear-gradient(to top, rgba(255,255,255,0.21), rgba(255,255,255,0.21)), url(../img/tennis-back.jpg) center center no-repeat;
+	background-size: cover;
+}
+section.main.basketball{
+	background: linear-gradient(to top, rgba(255,255,255,0.21), rgba(255,255,255,0.21)), url(../img/basketball-back.jpg) center center no-repeat;
 	background-size: cover;
 }
 section.main .row{

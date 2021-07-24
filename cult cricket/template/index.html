@@ -9,7 +9,46 @@
 <body>
 
 
-	<section class="main">
+	<section class="home">
+		<div class="row">
+			<div class="col-2 sportselect cricket">
+				<img src="assets/img/cricket.jpg">
+				<div class="text">
+					<h2>Cricket</h2>
+				</div>
+			</div>
+			<div class="col-2 sportselect football">
+				<img src="assets/img/football.jpg">
+				<div class="text">
+					<h2>Football</h2>
+				</div>
+			</div>
+			<div class="col-2 sportselect hockey">
+				<img src="assets/img/hockey.jpg">
+				<div class="text">
+					<h2>Hockey</h2>
+				</div>
+			</div>
+			<div class="col-2 sportselect tennis">
+				<img src="assets/img/tennis.jpg">
+				<div class="text">
+					<h2>Tennis</h2>
+				</div>
+			</div>
+			<div class="col-2 sportselect basketball">
+				<img src="assets/img/basketball.jpg">
+				<div class="text">
+					<h2>Basketball</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="main contentPart cricket">
+		<div class="back-menu">
+			<button><i class="fas fa-arrow-left"></i> Back</button>
+		</div>
 		<div class="row">
 			<div class="col-sm-6">
 			</div>
@@ -32,6 +71,135 @@
 			</div>
 		</div>
 	</section>
+	<section class="main contentPart football">
+		<div class="back-menu">
+			<button><i class="fas fa-arrow-left"></i> Back</button>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+			</div>
+			<div class="col-sm-6">
+				<div class="content">
+					<img src="assets/img/logo.png" alt="logo" class="logo">
+					<h2> CRICKET DIGITAL<br>COLLECTIBLES</h2>
+					<p class="sub">Collect the best of CRICKET.<br> Buy, Sell, Trade, Collect.</p>
+					<div class="formBox">
+						<p><em>Register for early access</em></p>
+						<form>
+							<input type="email" name="email" placeholder="Email">
+							<button>Sign up</button>
+						</form>
+						<p class="next"><em>By signing up, you agree that you would like to receive information <br>
+						from CULT CRICKET about our launch events through email</em></p>
+					</div>
+					<p class="foot">Coming soon, by Cult moment Inc.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="main contentPart hockey">
+		<div class="back-menu">
+			<button><i class="fas fa-arrow-left"></i> Back</button>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+			</div>
+			<div class="col-sm-6">
+				<div class="content">
+					<img src="assets/img/logo.png" alt="logo" class="logo">
+					<h2> CRICKET DIGITAL<br>COLLECTIBLES</h2>
+					<p class="sub">Collect the best of CRICKET.<br> Buy, Sell, Trade, Collect.</p>
+					<div class="formBox">
+						<p><em>Register for early access</em></p>
+						<form>
+							<input type="email" name="email" placeholder="Email">
+							<button>Sign up</button>
+						</form>
+						<p class="next"><em>By signing up, you agree that you would like to receive information <br>
+						from CULT CRICKET about our launch events through email</em></p>
+					</div>
+					<p class="foot">Coming soon, by Cult moment Inc.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="main contentPart tennis">
+		<div class="back-menu">
+			<button><i class="fas fa-arrow-left"></i> Back</button>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+			</div>
+			<div class="col-sm-6">
+				<div class="content">
+					<img src="assets/img/logo.png" alt="logo" class="logo">
+					<h2> CRICKET DIGITAL<br>COLLECTIBLES</h2>
+					<p class="sub">Collect the best of CRICKET.<br> Buy, Sell, Trade, Collect.</p>
+					<div class="formBox">
+						<p><em>Register for early access</em></p>
+						<form>
+							<input type="email" name="email" placeholder="Email">
+							<button>Sign up</button>
+						</form>
+						<p class="next"><em>By signing up, you agree that you would like to receive information <br>
+						from CULT CRICKET about our launch events through email</em></p>
+					</div>
+					<p class="foot">Coming soon, by Cult moment Inc.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="main contentPart basketball">
+		<div class="back-menu">
+			<button><i class="fas fa-arrow-left"></i> Back</button>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+			</div>
+			<div class="col-sm-6">
+				<div class="content">
+					<img src="assets/img/logo.png" alt="logo" class="logo">
+					<h2> CRICKET DIGITAL<br>COLLECTIBLES</h2>
+					<p class="sub">Collect the best of CRICKET.<br> Buy, Sell, Trade, Collect.</p>
+					<div class="formBox">
+						<p><em>Register for early access</em></p>
+						<form>
+							<input type="email" name="email" placeholder="Email">
+							<button>Sign up</button>
+						</form>
+						<p class="next"><em>By signing up, you agree that you would like to receive information <br>
+						from CULT CRICKET about our launch events through email</em></p>
+					</div>
+					<p class="foot">Coming soon, by Cult moment Inc.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+	<script type="text/javascript">
+		$(window).on('load', function(){
+			$(".sportselect.cricket").click(function(e){
+				$(".contentPart.cricket").addClass("active");
+			});
+			$(".sportselect.football").click(function(e){
+				$(".contentPart.football").addClass("active");
+			});
+			$(".sportselect.hockey").click(function(e){
+				$(".contentPart.hockey").addClass("active");
+			});
+			$(".sportselect.tennis").click(function(e){
+				$(".contentPart.tennis").addClass("active");
+			});
+			$(".sportselect.basketball").click(function(e){
+				$(".contentPart.basketball").addClass("active");
+			});
+
+			$(".back-menu").click(function(e){
+				$(this).closest(".contentPart").removeClass("active");
+			});
+		});
+	</script>
 
 
 </body>

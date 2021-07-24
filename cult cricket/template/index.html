@@ -176,27 +176,48 @@
 		</div>
 	</section>
 
+	<div class="loader-box">
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+		<lottie-player src="https://assets5.lottiefiles.com/packages/lf20_9Jggtr.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+	</div>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
 	<script type="text/javascript">
 		$(window).on('load', function(){
 			$(".sportselect.cricket").click(function(e){
-				$(".contentPart.cricket").addClass("active");
+				$(".loader-box").addClass("active");
+				setTimeout(function() {
+					$(".contentPart.cricket").addClass("active");
+				}, 2000);
 			});
 			$(".sportselect.football").click(function(e){
-				$(".contentPart.football").addClass("active");
+				$(".loader-box").addClass("active");
+				setTimeout(function() {
+					$(".contentPart.football").addClass("active");
+				}, 2000);
 			});
 			$(".sportselect.hockey").click(function(e){
-				$(".contentPart.hockey").addClass("active");
+				$(".loader-box").addClass("active");
+				setTimeout(function() {
+					$(".contentPart.hockey").addClass("active");
+				}, 2000);
 			});
 			$(".sportselect.tennis").click(function(e){
-				$(".contentPart.tennis").addClass("active");
+				$(".loader-box").addClass("active");
+				setTimeout(function() {
+					$(".contentPart.tennis").addClass("active");
+				}, 2000);
 			});
 			$(".sportselect.basketball").click(function(e){
-				$(".contentPart.basketball").addClass("active");
+				$(".loader-box").addClass("active");
+				setTimeout(function() {
+					$(".contentPart.basketball").addClass("active");
+				}, 2000);
 			});
 
 			$(".back-menu").click(function(e){
 				$(this).closest(".contentPart").removeClass("active");
+				$(".loader-box").removeClass("active");
 			});
 		});
 	</script>

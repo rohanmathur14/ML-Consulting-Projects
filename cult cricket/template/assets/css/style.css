@@ -77,6 +77,14 @@ body{
 section.home{
 	width: 100%;
 	height: 100vh;
+	position: relative;
+}
+img.momentslogo{
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 400px;
 }
 section.home .row{
 	display: flex;
@@ -86,7 +94,7 @@ section.home .row{
 	height: 100%;
 }
 section.home .row .col-2{
-	width: 20%;
+	width: calc(100% / 8);
 	/*background: linear-gradient(to top, rgba(0,0,0,1) 20%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0)), url('../img/cricket.jpg') center center no-repeat;
 	background-size: cover;	*/
 	background: linear-gradient(to top, rgba(0,0,0,1) 20%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0));
@@ -141,14 +149,20 @@ section.home .row .col-2 h2{
 section.home .row .col-2.cricket h2{
 	bottom: -70px;
 }
-section.home .row .col-2.football h2{
+section.home .row .col-2.football h2, section.home .row .col-2.running h2{
 	bottom: -40px;
 }
-section.home .row .col-2.hockey h2{
+section.home .row .col-2.hockey h2,section.home .row .col-2.cycling h2,section.home .row .col-2.racing h2,section.home .row .col-2.rugby h2{
 	bottom: -70px;
 }
 section.home .row .col-2.tennis h2{
 	bottom: -80px;
+}
+section.home .row .col-2.baseball h2{
+	bottom: -30px;
+}
+section.home .row .col-2.americanfootball h2{
+	bottom: -60px;
 }
 section.main{
 	width: 100%;
@@ -156,23 +170,35 @@ section.main{
 	overflow: hidden;
 }
 section.main.cricket{
-	background: linear-gradient(to top, rgba(255,255,255,0.21), rgba(255,255,255,0.21)), url(../img/cricket-back.jpeg) center center no-repeat;
+	background: linear-gradient(to top, rgba(255,255,255,0.21), rgba(255,255,255,0.21)), url(../img/cricket-back.jpg) center center no-repeat;
 	background-size: cover;
 }
 section.main.football{
 	background: linear-gradient(to top, rgba(255,255,255,0.21), rgba(255,255,255,0.21)), url(../img/football-back.jpg) center center no-repeat;
 	background-size: cover;
 }
-section.main.hockey{
-	background: linear-gradient(to top, rgba(255,255,255,0.21), rgba(255,255,255,0.21)), url(../img/hockey-back.jpg) center center no-repeat;
+section.main.baseball{
+	background: linear-gradient(to top, rgba(255,255,255,0.21), rgba(255,255,255,0.21)), url(../img/baseball-back.jpg) center center no-repeat;
+	background-size: cover;
+}
+section.main.cycling{
+	background: linear-gradient(to top, rgba(255,255,255,0.21), rgba(255,255,255,0.21)), url(../img/cycling-back.jpg) center center no-repeat;
+	background-size: cover;
+}
+section.main.racing{
+	background: linear-gradient(to top, rgba(255,255,255,0.21), rgba(255,255,255,0.21)), url(../img/racing-back.jpg) center center no-repeat;
+	background-size: cover;
+}
+section.main.rugby{
+	background: linear-gradient(to top, rgba(255,255,255,0.21), rgba(255,255,255,0.21)), url(../img/rugby-back.jpg) center center no-repeat;
+	background-size: cover;
+}
+section.main.running{
+	background: linear-gradient(to top, rgba(255,255,255,0.21), rgba(255,255,255,0.21)), url(../img/running-back.jpg) center center no-repeat;
 	background-size: cover;
 }
 section.main.tennis{
 	background: linear-gradient(to top, rgba(255,255,255,0.21), rgba(255,255,255,0.21)), url(../img/tennis-back.jpg) center center no-repeat;
-	background-size: cover;
-}
-section.main.basketball{
-	background: linear-gradient(to top, rgba(255,255,255,0.21), rgba(255,255,255,0.21)), url(../img/basketball-back.jpg) center center no-repeat;
 	background-size: cover;
 }
 section.main .row{
@@ -189,7 +215,7 @@ section.main .row .col-sm-6{
 section.main .row .col-sm-6 .content{
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.1);
+	background: rgba(0, 0, 0, 0.4);
 	padding: 50px 70px;
 	display: flex;
 	justify-content: center;

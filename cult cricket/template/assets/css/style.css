@@ -94,7 +94,7 @@ section.home .row{
 	height: 100%;
 }
 section.home .row .col-2{
-	width: calc(100% / 8);
+	width: calc(100% / 6);
 	/*background: linear-gradient(to top, rgba(0,0,0,1) 20%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0)), url('../img/cricket.jpg') center center no-repeat;
 	background-size: cover;	*/
 	background: linear-gradient(to top, rgba(0,0,0,1) 20%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0));
@@ -149,7 +149,10 @@ section.home .row .col-2 h2{
 section.home .row .col-2.cricket h2{
 	bottom: -70px;
 }
-section.home .row .col-2.football h2, section.home .row .col-2.running h2{
+section.home .row .col-2.football h2{
+	bottom: -60px;
+}
+section.home .row .col-2.running h2{
 	bottom: -40px;
 }
 section.home .row .col-2.hockey h2,section.home .row .col-2.cycling h2,section.home .row .col-2.racing h2,section.home .row .col-2.rugby h2{
@@ -162,7 +165,7 @@ section.home .row .col-2.baseball h2{
 	bottom: -30px;
 }
 section.home .row .col-2.americanfootball h2{
-	bottom: -60px;
+	bottom: -30px;
 }
 section.main{
 	width: 100%;

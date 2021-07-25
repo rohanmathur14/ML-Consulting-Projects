@@ -204,6 +204,10 @@ section.main.tennis{
 	background: linear-gradient(to top, rgba(255,255,255,0.21), rgba(255,255,255,0.21)), url(../img/tennis-back.jpg) center center no-repeat;
 	background-size: cover;
 }
+section.main.americanfootball{
+	background: linear-gradient(to top, rgba(255,255,255,0.21), rgba(255,255,255,0.21)), url(../img/americanfootball-back.jpg) center center no-repeat;
+	background-size: cover;
+}
 section.main .row{
 	width: 100%;
 	height: 100%;

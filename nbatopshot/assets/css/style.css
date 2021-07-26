@@ -26,6 +26,7 @@
 :root{
 	--grey: #212127;
 	--blue: #325eff;
+	--red: rgb(223, 68, 48);
 }
 *{
 	padding: 0;
@@ -844,6 +845,160 @@ footer .footer-img-logo{
 	margin-left: 15px;
 }
 
+/* -----------------------------------------------------------------------
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+----------------------------------- Packs css ------------------------------
+---------------------------------------------------------------------------
+--------------------------------------------------------------------------
+-------------------------------------------------------------------------- */
+
+.packs-section-1{
+	width: 100%;
+	padding: 30px 10%;
+	background: #000;
+}
+.packs-section-1 h2.title{
+	color: #fff;
+	font-size: 57px;
+	display: block;
+	position: relative;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.packs-section-1 h2.title:before{
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 38px;
+	height: 6px;
+	background: #fff;
+}
+.packs-section-1 .row{
+	margin-top: 50px;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 50vh;
+}
+.packs-section-1 .row .col-sm-8, .packs-section-1 .row .col-sm-4{
+	height: 100%;
+}
+.packs-section-1 .row .col-sm-8 .content{
+	width: 100%;
+	background: url('../img/backs/purple.png') center center no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+.packs-section-1 .row .col-sm-8 .content .tagBox{
+	width: 100%;
+	padding: 16px 20px;
+	background: var(--red);
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+}
+.packs-section-1 .row .col-sm-8 .content .tagBox .right i{
+	font-size: 27px;
+}
+.packs-section-1 .row .col-sm-8 .content .tagBox span.top{
+	display: block;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.packs-section-1 .row .col-sm-8 .content .tagBox span.bottom{
+	font-size: 18px;
+	margin-top: 5px;
+
+}
+.packs-section-1 .row .col-sm-8 .content .inner-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 3%;
+	height: 83%;
+}
+.packs-section-1 .row .col-sm-8 .content .inner-content .left, .packs-section-1 .row .col-sm-8 .content .inner-content .right{
+	width: 50%;
+}
+.packs-section-1 .row .col-sm-8 .content .inner-content h2{
+	color: #fff;
+	font-size: 46px;
+	text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+	margin-bottom: 10px;
+}
+.packs-section-1 .row .col-sm-8 .content .inner-content p{
+	font-size: 14px;
+	color: #fff;
+	text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+}
+.packs-section-1 .row .col-sm-8 .content .inner-content .right img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 232px;
+	filter: drop-shadow(rgb(0, 0, 0) 11px 20px 20px);
+	transform: rotate(8deg);
+	transition: 0.4s;
+}
+.packs-section-1 .row .col-sm-8 .content .inner-content .right img:hover{
+	transform: rotate(8deg) scale(1.05);
+}
+.packs-section-1 .row .col-sm-4 .content{
+	width: 100%;
+	background: url('../img/backs/bg_quavo.png') center center no-repeat;
+	background-size: cover;
+	height: 100%;
+	padding: 4%;
+}
+.packs-section-1 .row .col-sm-4 .content span.tag{
+    font-size: 11px;
+    letter-spacing: 2.2px;
+    line-height: 13px;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    padding: 4px;
+    max-width: fit-content;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.packs-section-1 .row .col-sm-4 .content .imgBox{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+.packs-section-1 .row .col-sm-4 .content img{
+    width: 100%;
+    max-width: 190px;
+    filter: drop-shadow(rgb(0, 0, 0) 11px 10px 20px);
+    transition: 0.4s;
+}
+.packs-section-1 .row .col-sm-4 .content img:hover{
+	transform: scale(1.05);
+}
+.packs-section-1 .row .col-sm-4 .content h2{
+	color: #fff;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	line-height: 1;
+	margin-bottom: 7px;
+}
+.packs-section-1 .row .col-sm-4 .content p{
+	font-size: 14px;
+    line-height: 18px;
+    margin: 0px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
 
 
 
@@ -864,6 +1019,9 @@ footer .footer-img-logo{
 
 	.row{
 		flex-flow: column;
+	}
+	.row .col-sm-8{
+		width: 100%;
 	}
 	.row .col-sm-6{
 		width: 100%;
@@ -1270,5 +1428,122 @@ footer .footer-img-logo{
 		list-style: none;
 		font-family: sans-serif;
 		margin-top: 15px;
+	}
+
+	/* -----------------------------------------------------------------------
+	----------------------------------------------------------------------------
+	----------------------------------------------------------------------------
+	----------------------------------- Packs css ------------------------------
+	---------------------------------------------------------------------------
+	--------------------------------------------------------------------------
+	-------------------------------------------------------------------------- */
+	.packs-section-1{
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		padding: 30px 4%;
+	}
+	.packs-section-1 h2.title{
+		font-size: 35px;
+		margin: 4px 0px;
+	}
+	.packs-section-1 h2.title:before{
+		bottom: -10px;
+	}
+	.packs-section-1 .row{
+		margin-top: 50px;
+		height: 50vh;
+	}
+	.packs-section-1 .row .col-sm-8 .content{
+		width: 100%;
+		background: url('../img/backs/purple.png') center center no-repeat;
+		background-size: cover;
+		height: 100%;
+	}
+	.packs-section-1 .row .col-sm-8 .content .tagBox{
+		width: 100%;
+		padding: 20px 20px;
+	}
+	.packs-section-1 .row .col-sm-8 .content .inner-content{
+		flex-flow: column;
+		padding: 0px 10px;
+		height: 83%;
+	}
+	.packs-section-1 .row .col-sm-8 .content .inner-content .left, .packs-section-1 .row .col-sm-8 .content .inner-content .right{
+		width: 100%;
+	}
+	.packs-section-1 .row .col-sm-8 .content .inner-content h2{
+		color: #fff;
+		font-size: 46px;
+		text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+		margin-bottom: 10px;
+	}
+	.packs-section-1 .row .col-sm-8 .content .inner-content p{
+		font-size: 14px;
+		color: #fff;
+		text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+	}
+	.packs-section-1 .row .col-sm-8 .content .inner-content .right img{
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 232px;
+		filter: drop-shadow(rgb(0, 0, 0) 11px 20px 20px);
+		transform: rotate(8deg);
+		transition: 0.4s;
+	}
+	.packs-section-1 .row .col-sm-8 .content .inner-content .right img:hover{
+		transform: rotate(8deg) scale(1.05);
+	}
+	.packs-section-1 .row .col-sm-4 .content{
+		width: 100%;
+		background: url('../img/backs/bg_quavo.png') center center no-repeat;
+		background-size: cover;
+		height: 100%;
+		padding: 4%;
+	}
+	.packs-section-1 .row .col-sm-4 .content span.tag{
+	    font-size: 11px;
+	    letter-spacing: 2.2px;
+	    line-height: 13px;
+	    text-transform: uppercase;
+	    display: block;
+	    margin-top: 0px;
+	    margin-bottom: 12px;
+	    padding: 4px;
+	    max-width: fit-content;
+	    color: rgb(0, 0, 0);
+	    background-color: rgb(255, 255, 255);
+	}
+	.packs-section-1 .row .col-sm-4 .content .imgBox{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 20px;
+	}
+	.packs-section-1 .row .col-sm-4 .content img{
+	    width: 100%;
+	    max-width: 190px;
+	    filter: drop-shadow(rgb(0, 0, 0) 11px 10px 20px);
+	    transition: 0.4s;
+	}
+	.packs-section-1 .row .col-sm-4 .content img:hover{
+		transform: scale(1.05);
+	}
+	.packs-section-1 .row .col-sm-4 .content h2{
+		color: #fff;
+		font-size: 24px;
+		text-transform: uppercase;
+		margin-top: 20px;
+		line-height: 1;
+		margin-bottom: 7px;
+	}
+	.packs-section-1 .row .col-sm-4 .content p{
+		font-size: 14px;
+	    line-height: 18px;
+	    margin: 0px;
+	    font-weight: bold;
+	    color: rgb(255, 255, 255);
 	}
 }

@@ -611,7 +611,7 @@ section {
 }
 .section-title h2 {
   color: rgba(45,45,45,0.9);
-  font-size: 28px;
+  font-size: 36px;
   font-weight: 500;
   line-height: 1.61em;
 }
@@ -655,8 +655,8 @@ section {
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: 230% -30%;
-    height: 750px;
-    min-height: 750px;
+    height: 100%;
+    min-height: 700px;
 }
 .banner-content-inner {
   width: 600px;

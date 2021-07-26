@@ -1554,8 +1554,8 @@ section {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  -ms-flex: 0 0 33.333%;
-  flex: 0 0 33.333%;
+ /* -ms-flex: 0 0 33.333%;
+  flex: 0 0 33.333%;*/
   max-width: 33.333%;
   color: #aab9cd;
 }

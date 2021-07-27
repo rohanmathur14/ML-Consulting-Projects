@@ -491,7 +491,7 @@ font-size: 36px;border-radius: 50%;display: flex;align-items: center;justify-con
 .technology-machine-text{padding-left:40px;}
 
 .technology-machine-icon img{
-    width: 110px;
+    width: 100px;
 }
 
 
@@ -792,6 +792,13 @@ h2{font-size:25px;}
 
 
 @media (max-width:767px) {
+
+    .corporate-section-one .container-box{
+        padding: 0px 6%;
+    }
+    .technology-machine-icon img{
+        width: 60px;
+    }
 
 .corporate-section-paid {padding:80px 0px 30px 0px;}
 .corporate-section-one h1{font-size: 20px;line-height: 36px;width: 100%;}

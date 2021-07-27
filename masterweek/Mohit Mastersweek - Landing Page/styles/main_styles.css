@@ -977,6 +977,7 @@ section
 	position: relative;
 	font-size: 20px;
 	margin-top: 23px;
+	margin-bottom: 10px;
 }
 
 /*********************************
@@ -4356,4 +4357,14 @@ section
 }
 .footer_logo_container img{
 	width: 180px;
+}
+
+@media only screen and (max-width: 600px){
+	.feature_title
+	{
+		position: relative;
+		font-size: 20px;
+		margin-top: 40px;
+		margin-bottom: 10px;
+	}
 }

@@ -4,6 +4,10 @@
 
 body{font-family: 'Poppins', sans-serif;}
 
+html{
+    scroll-behavior: smooth;
+}
+
 a{text-decoration:none !important;}
 .full {width:100%;float:left;}
 ul{margin:0;padding:0;}
@@ -146,6 +150,10 @@ header .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     border-color: transparent;
 }
 header .nav-link{
+    color: #fff !important;font-size:15px;position:relative;
+    transition: all 200ms linear;
+}
+.nav-link{
     color: #fff !important;font-size:15px;position:relative;
     transition: all 200ms linear;
 }

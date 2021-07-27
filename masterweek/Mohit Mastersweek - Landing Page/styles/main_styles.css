@@ -4359,6 +4359,14 @@ section
 	width: 180px;
 }
 
+.blog_single .blog_content ul{
+	margin-top: 10px;
+}
+.blog_single .blog_content ul li{
+	font-size: 16px;
+	list-style: circle;
+}
+
 @media only screen and (max-width: 600px){
 	.feature_title
 	{

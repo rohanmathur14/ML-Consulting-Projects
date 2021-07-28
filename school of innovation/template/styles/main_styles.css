@@ -4358,6 +4358,10 @@ section
   	filter: grayscale(0%);
 }
 
+.feature_text{
+	margin-top: 10px;
+}
+
 img.logo{
 	width: 200px;
 }

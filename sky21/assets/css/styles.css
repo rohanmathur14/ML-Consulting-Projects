@@ -2024,6 +2024,13 @@ aside .aside-post + .aside-post {
 
 @media only screen and (max-width: 600px){
   .banner video{
+    height: 55vh;
+    min-height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 390px){
+  .banner video{
     height: 63vh;
     min-height: 50vh;
   }

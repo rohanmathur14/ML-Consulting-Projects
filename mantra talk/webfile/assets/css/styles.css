@@ -1,5 +1,9 @@
   @charset "utf-8";
 /* Common CSS */
+
+html{
+  scroll-behavior: smooth;
+}
 body {
   color: #3C424F;
   font-family: 'Jost', sans-serif;

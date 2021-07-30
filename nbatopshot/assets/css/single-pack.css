@@ -1,0 +1,215 @@
+.single-pack-section1{
+	width: 100%;
+	padding: 0px;
+	margin-top: 4rem;
+	background: #000;
+	position: relative;
+}
+.single-pack-section1 .cumb{
+	padding: 12px 10%;
+}
+.single-pack-section1 .cumb a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.single-pack-section1 .cumb a i{
+	margin-right: 12px;
+	font-size: 13px;
+}
+.imgBack{
+	width: 100%;
+	position: relative;
+	height: 84vh;
+}
+.right-product-box{
+	position: absolute;
+	top: 2.3rem;
+	right: 11%;
+	width: 25%;
+	height: calc(100% - 2.3rem);
+	background: var(--grey);
+	padding: 32px 24px;
+}
+.right-product-box h2{
+	font-size: 31px;
+	color: #fff;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.right-product-box span.tag{
+	display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 99em;
+    font-family: Shapiro, sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    padding: 8px 16px;
+    color: var(--green);
+    line-height: 1;
+    border: 2px solid var(--green);
+    margin-bottom: 20px;
+}
+.right-product-box div.price{
+	font-size: 24px;
+	color: #fff;
+	font-family: 'Shapiro-extd';
+	margin-top: 20px;
+	margin-bottom: 20px;
+	letter-spacing: 0.8px;
+}
+.right-product-box div.price span{
+	display: inline-block;
+	position: relative;
+	font-size: 12px;
+	color: var(--grey2);
+	top: -12px;
+}
+.right-product-box a.btn{
+	display: block;
+	width: 100%;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 14px 24px;
+	text-decoration: none;
+	text-align: center;
+}
+img.product-img{
+	position: absolute;
+	top: 50%;
+	left: 37%;
+	transform: translate(-50%, -50%);
+	height: 75%;
+	filter: drop-shadow(rgb(0, 0, 0) 11px 20px 20px);
+}
+.product-details{
+	width: 72.5%;
+	padding: 20px 10%;
+}
+.product-details .details-bar{
+	padding: 30px 20px;
+	background: var(--grey);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	cursor: pointer;
+}
+.product-details .details-bar h3{
+	text-transform: uppercase;
+	font-size: 31px;
+}
+.product-details .content{
+	width: 100%;
+	overflow: hidden;
+	height: 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	transition: 0.4s;
+	margin-top: 25px;
+	color: #fff;
+}
+.product-details .content.details-on{
+	height: 75vh;
+}
+.product-details .content .left{
+	width: 19%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.product-details .content .right{
+	width: 78%;
+}
+.product-details .content .left img{
+	width: 50px;
+}
+.product-details .content .left div span{
+	display: block;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: var(--grey2);
+	font-family: sans-serif;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.product-details .content .left div p{
+	font-size: 14px;
+	color: #fff;
+	font-family: sans-serif;
+}
+.product-details .content .pack-details{
+	padding-left: 20px;
+	border-left: 1px solid var(--grey2);
+}
+.product-details .content .pack-details h4{
+	font-size: 17px;
+	margin-bottom: 16px;
+}
+.product-details .content .pack-details p{
+	font-size: 14px;
+	font-family: sans-serif;
+}
+.product-details .content .pack-details p a{
+	text-decoration: underline;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: sans-serif;
+}
+.product-details .content .pack-details p b{
+	font-family: sans-serif;
+	letter-spacing: 0px;
+}
+
+.open-openings{
+	color: #fff;
+	padding: 0px 10%;
+	margin-top: 0px;
+	width: 72.5%;
+	padding-bottom: 70px;
+}
+.open-openings p{
+	font-family: sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.open-openings .slider{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-flow: column;
+}
+.open-openings .slider a{
+	text-decoration: none;
+	color: #fff;
+}
+.open-openings .slider .circle{
+	width: 70px;
+	height: 70px;
+	background: var(--blue);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
+
+}
+.open-openings .slider .circle img{
+	width: 95%;
+	border-radius: 50%;
+}
+.open-openings .slider span{
+	display: block;
+	font-size: 8px;
+	color: var(--grey2);
+	margin-top: 5px;
+	text-align: center;
+}

@@ -25,6 +25,7 @@
 }
 :root{
 	--grey: #212127;
+	--grey2: rgb(167, 174, 187);
 	--blue: #325eff;
 	--red: rgb(223, 68, 48);
 	--orange: rgb(225, 70, 67);
@@ -80,7 +81,10 @@ header{
 	height: 4rem;
 	background: var(--grey);
 	padding: 0px 10%;
-	position: relative;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 	z-index: 100;
 }
 header .mobile-nav-links{
@@ -364,6 +368,7 @@ header nav ul li .innernav.marketplace.help .content{
 	background-repeat: no-repeat;
 	background-size: cover;*/
 	padding: 0px 4% 0px 10%;
+	margin-top: 3.99rem;
 }
 .section1 .row{
 	justify-content: space-between;
@@ -857,7 +862,7 @@ footer .footer-img-logo{
 
 .packs-section-1{
 	width: 100%;
-	padding: 30px 10% 50px 10%;
+	padding: 90px 10% 50px 10%;
 	background: #000;
 }
 .packs-section-1 h2.title{
@@ -1144,6 +1149,10 @@ footer .footer-img-logo{
 	header{
 		padding: 0px 10px;
 		height: 3.5rem;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
 	}
 	header nav .logoBox img{
 		width: 120px;
@@ -1542,7 +1551,7 @@ footer .footer-img-logo{
 		width: 100%;
 		height: auto;
 		/*overflow: hidden;*/
-		padding: 30px 4% 20px 4%;
+		padding: 75px 4% 20px 4%;
 	}
 	.packs-section-1 h2.title{
 		font-size: 35px;
@@ -1621,5 +1630,89 @@ footer .footer-img-logo{
 	}
 	.packs-section-1 .row .col-sm-4 .content p{
 		font-size: 14px;
+	}
+
+	.packs-section-2{
+		width: 100%;
+		padding: 50px 5% 70px 5%;
+		text-align: left;
+	}
+	.packs-section-2 h2{
+		font-size: 24px;
+		margin: 25px 0px 48px 0px;
+	}
+	.packs-section-2 h4{
+		font-family: 'Shapiro-lh';
+		font-size: 16px;
+	}
+	.packs-section-2 p{
+		font-size: 16px;
+		font-family: sans-serif;
+		line-height: 22px;
+		margin-bottom: 25px;
+	}
+
+	.packs-section-3{
+		width: 100%;
+		padding: 60px 5%;
+	}
+	.packs-section-3 h2{
+		font-size: 16px;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+	.packs-section-3 .row{
+		flex-flow: row wrap;
+	}
+	.packs-section-3 .row .col-sm-3{
+		width: 50%;
+	}
+	.packs-section-3 .product{
+		width: 100%;
+		position: relative;
+		padding-top: 50px;
+		padding-bottom: 40px;
+	}
+	.packs-section-3 .product img{
+		width: 80%;
+		margin-bottom: 25px;
+	}
+	.packs-section-3 .product span{
+		display: inline-block;
+		transform: translateX(20px);
+	}
+	.packs-section-3 .product span.name{
+		font-size: 12px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		margin-bottom: 5px;
+	}
+	.packs-section-3 .product span.category{
+		font-size: 12px;
+		font-family: sans-serif;
+		margin-bottom: 16px;
+		opacity: 0.8;
+	}
+	.packs-section-3 .product span.price{
+		font-weight: 600;
+		font-size: 17px;
+	}
+	.packs-section-3 .product div.tag{
+		position: absolute;
+		top: 20px;
+		left: 0%;
+		transform: translateY(-50%);
+	    display: inline-block;
+	    text-align: center;
+	    text-transform: uppercase;
+	    border-radius: 99em;
+	    font-family: sans-serif;
+	    font-weight: 700;
+	    font-size: 11px;
+	    padding: 8px 16px;
+	    color: var(--green);
+	    line-height: 1;
+	    border: 2px solid var(--green);
 	}
 }

@@ -37,7 +37,7 @@
 	box-sizing: border-box;
 	font-family: 'Shapiro-lh';
 }
-h2,h3,h4,h5{
+h1,h2,h3,h4,h5{
 	font-family: 'Shapiro-extd';
 }
 .primary-btn{
@@ -64,6 +64,9 @@ h2,h3,h4,h5{
 	height: 100%;
 	width: 100%;
 }
+.row .col-sm-10{
+	width: 82%;
+}
 .row .col-sm-8{
 	width: 65%;
 }
@@ -75,6 +78,9 @@ h2,h3,h4,h5{
 }
 .row .col-sm-3{
 	width: 24%;
+}
+.row .col-sm-2{
+	width: 15%;
 }
 header{
 	width: 100%;

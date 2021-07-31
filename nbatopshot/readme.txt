@@ -2,8 +2,9 @@
 2. https://nbatopshot.com/packs
 3. https://nbatopshot.com/listings/pack/2a32145d-b9a1-4339-97cf-8d04635bd837
 4. https://nbatopshot.com/search
-5. https://nbatopshot.com/listings/p2p/6783b9d8-44c5-49c7-87e0-be217af963e9+85c07dda-f1b7-4a2f-9140-161f9de6cbfd , https://nbatopshot.com/listings/p2p/6783b9d8-44c5-49c7-87e0-be217af963e9+85c07dda-f1b7-4a2f-9140-161f9de6cbfd/history
-6. https://nbatopshot.com/collectors
-7. https://nbatopshot.com/user/@MBogues_CLT1
-8. https://nbatopshot.com/user/@klutzy_kiwi_fruit7563/moments
-9. https://support.nbatopshot.com/hc/en-us
+5. https://nbatopshot.com/listings/p2p/6783b9d8-44c5-49c7-87e0-be217af963e9+85c07dda-f1b7-4a2f-9140-161f9de6cbfd 
+6. https://nbatopshot.com/listings/p2p/6783b9d8-44c5-49c7-87e0-be217af963e9+85c07dda-f1b7-4a2f-9140-161f9de6cbfd/history
+7. https://nbatopshot.com/collectors
+8. https://nbatopshot.com/user/@MBogues_CLT1
+9. https://nbatopshot.com/user/@klutzy_kiwi_fruit7563/moments
+10. https://support.nbatopshot.com/hc/en-us

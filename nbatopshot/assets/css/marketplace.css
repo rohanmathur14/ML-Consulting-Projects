@@ -1,0 +1,195 @@
+.marketplace-section-1{
+	width: 100%;
+	margin-top: 4rem;
+	padding: 30px 10%;
+	background: #000;
+}
+.marketplace-section-1 h1{
+	color: #fff;
+	font-size: 46px;
+	display: block;
+	position: relative;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 32px;
+}
+.marketplace-section-1 h1:before{
+	content: "";
+	position: absolute;
+	bottom: -5px;
+	left: 0px;
+	width: 38px;
+	height: 6px;
+	background: #fff;
+}
+.marketplace-section-1 ul.sale-selection{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.marketplace-section-1 ul.sale-selection li{
+	margin-right: 50px;
+}
+.marketplace-section-1 ul.sale-selection li a{
+	text-decoration: none;
+	font-family: sans-serif;
+	color: var(--grey2);
+	padding-bottom: 12px;
+	position: relative;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 16px;
+	transition: 0.4s;
+	letter-spacing: 1px;
+}
+.marketplace-section-1 ul.sale-selection li a:hover, .marketplace-section-1 ul.sale-selection li a.active{
+	color: #fff;
+}
+.marketplace-section-1 ul.sale-selection li a:before{
+	content: "";
+	position: absolute;
+	width: 0%;
+	height: 3px;
+	background: var(--blue);
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	transition: 0.4s;
+}
+.marketplace-section-1 ul.sale-selection li a:hover:before, .marketplace-section-1 ul.sale-selection li a.active:before{
+	width: 100%;
+}
+.marketplace-section-1 .current-limit{
+	color: #fff;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.marketplace-section-1 .current-limit .left{
+	width: 74%;
+	padding: 16px;
+	background: var(--grey);
+	font-size: 11px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.marketplace-section-1 .current-limit .left p{
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.marketplace-section-1 .current-limit .left a{
+	font-size: 11px;
+	letter-spacing: 2px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #fff;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+.marketplace-section-1 .current-limit .right{
+	width: 24%;
+	background: var(--green);
+	padding: 16px;
+	text-align: center;
+	position: relative;
+}
+.marketplace-section-1 .current-limit .right i{
+	position: absolute;
+	top: 50%;
+	left: 16px;
+	transform: translateY(-50%);
+}
+.marketplace-section-1 .current-limit .right span{
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 2px;
+}
+
+.filter-box{
+	margin-top: 15px;
+	justify-content: space-between;
+}
+.filter-box .left form{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+.filter-box .left form label{
+	position: absolute;
+	color: var(--grey2);
+	font-size: 11px;
+	letter-spacing: 1px;
+	top: 50%;
+	left: 20px;
+	transform: translateY(-50%);
+	font-family: sans-serif;
+}
+.filter-box .left form select{
+	width: 90%;
+	    -webkit-box-align: center;
+    align-items: center;
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: none;
+    cursor: default;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    transition: all 100ms ease 0s;
+    box-sizing: border-box;
+    font-family: Shapiro, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    height: 100%;
+    outline: 0px !important;
+    padding: 16px;
+    color: var(--grey2);
+    position: relative;
+    display: inline-block;
+}
+.filter-box .left form select:before{
+	content: "";
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 30px;
+	width: 2px;
+	height: 100%;
+	background: var(--grey2);
+}
+.filter-box .left form select *{
+	padding: 20px 10px;
+	background: var(--grey);
+	color: #fff;
+	line-height: 50px;
+	height: 50px;
+}
+.filter-box .left form button{
+	    font-family: Shapiro, sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 2.2px;
+    line-height: 13px;
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 16px 24px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 10px;
+
+}

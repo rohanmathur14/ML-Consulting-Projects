@@ -63,7 +63,7 @@ var swiper = new Swiper(".home-section-2-mob", {
     });
 
  var swiper = new Swiper(".open-openings-slide", {
-        slidesPerView: 1,
+        slidesPerView: 4,
         spaceBetween: 10,
         loop: true,
         pagination: {
@@ -72,7 +72,7 @@ var swiper = new Swiper(".home-section-2-mob", {
         },
         breakpoints: {
           640: {
-            slidesPerView: 2,
+            slidesPerView: 4,
             spaceBetween: 20,
           },
           768: {

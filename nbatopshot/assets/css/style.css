@@ -29,7 +29,8 @@
 	--blue: #325eff;
 	--red: rgb(223, 68, 48);
 	--orange: rgb(225, 70, 67);
-	--green: rgb(17, 196, 98);;
+	--green: rgb(17, 196, 98);
+	--pink: #f22384;
 }
 *{
 	padding: 0;

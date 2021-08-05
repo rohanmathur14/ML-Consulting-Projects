@@ -265,6 +265,7 @@
 .product-details-mob{
 	display: none !important;
 }
+/*--------------------------------------------------------------------------------------------*/
 .listing-secion-2{
 	padding: 0px 10%;
 	background: #000;
@@ -490,6 +491,7 @@ p.update-note{
 .listing-secion-3{
 	padding: 0px 10%;
 	background: #000;
+	padding-bottom: 40px;
 }
 
 .listing-secion-3 .highlight-stats-bar{
@@ -513,6 +515,11 @@ p.update-note{
 	margin-top: 50px;
 	color: #fff;
 	position: relative;
+	height: 0px;
+	overflow: hidden;
+}
+.highlight-stats-details.active{
+	height: auto;
 }
 .highlight-stats-top-head{
 	margin-bottom: 50px;
@@ -552,8 +559,8 @@ p.update-note{
 .box-scores{
 	width: 100%;
 	border: 1px solid var(--grey2);
-	margin-bottom: 50px;
 	overflow-y: hidden;
+	margin-bottom: 30px;
 }
 .box-scores .head{
 	border-bottom: 1px solid var(--grey2);
@@ -572,7 +579,7 @@ p.update-note{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 5px 0px;
+	padding: 12px 0px;
 }
 .box-scores .box{
 	width: calc(100% / 16);
@@ -591,6 +598,7 @@ p.update-note{
     letter-spacing: 1.35px;
     color: var(--grey2);
     margin-bottom: 5px;
+    font-weight: 600;
 }
 .box-scores .box span.value{
 	font-family: sans-serif;
@@ -603,9 +611,388 @@ p.update-note{
     letter-spacing: 1.75px;
     color: inherit;
 }
+.box-scores .score{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 20px;
+}
+.box-scores .score .team{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box-scores .score .team img{
+	width: 2rem;
+}
+.box-scores .score .team p{
+	padding: 4px 16px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.game-scores {
+	overflow-y: visible;
+}
+.game-scores .score .body .box{
+	margin: 0px 20px;
+}
 
-
-
+.game-scores .score.score1{
+	position: relative;
+}
+.game-scores .score.score1:before{
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f0dd";
+	position: absolute;
+	color: #fff;
+	top: 50%;
+	transform: translateY(-50%) rotate(-90deg);
+	left: -40px;
+	font-size: 3rem;
+}
+.listing-secion-4{
+	width: 100%;
+	padding: 0px 10%;
+	background: #000;
+}
+.listing-secion-4 .player-stats-bar{
+	background: var(--grey);
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 24px 20px;
+	color: #fff;
+	cursor: pointer;
+}
+.listing-secion-4 .player-stats-bar h2{
+	font-size: 31px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.player-stats-details-main{
+	height: 0px;
+	overflow: hidden;
+}
+.player-stats-details-main.active{
+	height: auto;
+}
+.player-stats-details{
+	width: 100%;
+	background: url('../img/backs/topshot-tiled-background.png') center center no-repeat;
+	background-size: cover;
+	padding: 40px 80px;
+	margin-top: 20px;
+	position: relative;
+}
+.player-stats-details p{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    color: rgb(167, 174, 187);
+}
+.player-stats-details h2{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 31px;
+    letter-spacing: 0.7px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.player-stats-details h2:before{
+	content: "";
+	position: absolute;
+	bottom: -6px;
+	left: 0px;
+	width: 38px;
+	height: 6px;
+	background: #fff;
+}
+.stats-row{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.stats-row .detail-row{
+	width: 100%;
+	margin: 20px 0px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.stats-row .stats-box2 .detail-row{
+	margin: 16px 0px;
+}
+.stats-row .stats-box{
+	width: 35%;
+	border-radius: 5px;
+	background: #fff;
+	padding: 12px 32px;
+	margin: 0px 7.5px;
+}
+.stats-row .stats-box span.name{
+	font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 13px;
+    letter-spacing: 1.35px;
+    color: inherit;
+    margin-right: 10px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+.stats-row .stats-box span.value{
+	font-family: 'Shapiro-extd';
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 24px;
+    margin: 0px;
+    padding-right: 8px;
+}
+.stats-row .stats-box span.value span{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+    text-transform: lowercase;
+}
+.stats-row .detail-row .icon-box i{
+	font-size: 20px;
+	opacity: 0.6;
+}
+.stats-row .detail-row .details{
+	padding-left: 20px;
+}
+.stats-row .detail-row .details span{
+	display: block;
+}
+.stats-row .detail-row .details span.d-name{
+	font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 11px;
+    letter-spacing: 1.35px;
+    color: inherit;
+    font-weight: 600;
+    opacity: 0.8;
+}
+.stats-row .detail-row .details span.d-value{
+	font-size: 14px;
+    line-height: 19px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin: 0px;
+    color: inherit;
+    text-align: inherit;
+}
+.code-view span.code-number{
+    padding-right: 20px;
+    font-size: 180px;
+    line-height: 100px;
+    color: rgb(255, 255, 255);
+    font-family: 'aldoTheApache';
+    text-align: right;
+}
+.code-view{
+	position: absolute;
+	top: 22%;
+	right: 13%;
+}
+.code-view img{
+	width: 20px;
+	position: absolute;
+	top: -40%;
+	right: -5%;
+	width: 60px;
+}
+.season-averages{
+	width: 100%;
+	border: 1px solid var(--grey2);
+	overflow-y: hidden;
+	margin-top: 20px;
+	color: #fff;
+}
+.season-averages .head{
+	border-bottom: 1px solid var(--grey2);
+	padding: 8px 16px;
+	font-family: sans-serif;
+    margin: 0px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1.75px;
+    color: var(--grey2);
+}
+.season-averages .body{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px 0px;
+}
+.season-averages .box{
+	width: calc(100% / 16);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.season-averages .box span.parameter{
+	font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 13px;
+    letter-spacing: 1.35px;
+    color: var(--grey2);
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.season-averages .box span.value{
+	font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1.75px;
+}
+.listing-secion-5{
+	width: 100%;
+	padding: 100px 10% 50px 10%;
+	background: #000;
+    color: rgb(255, 255, 255);
+}
+.listing-secion-5 .more-moments{
+	width: 100%;
+}
+.listing-secion-5 .more-moments h3{
+	margin-top: 4px;
+    margin-bottom: 4px;
+    font-family: Shapiro, sans-serif;
+    font-weight: 1000;
+    line-height: 1;
+    font-size: 20px;
+}
+.listing-secion-5 .more-moments .row{
+	justify-content: space-between;
+}
+.listing-secion-5 .more-moments .row .sets-content{
+	width: 100%;
+}
+.listing-secion-5 .more-moments .row .sets-content img{
+	width: 100%;
+}
+.listing-secion-5 .more-moments .row .sets-content .set-text{
+	transform: translateX(40px);
+}
+.listing-secion-5 .more-moments .row .sets-content h3{
+	font-family: sans-serif;
+    margin: 0px 0px 2px;
+    padding: 0px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1.75px;
+    line-height: 16px;
+}
+.listing-secion-5 .more-moments .row .sets-content p{
+	font-family: sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    padding-right: 35%;
+}
+.listing-secion-5 .more-moments .row .sets-content .moment-tags{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-bottom: 12px;
+}
+.listing-secion-5 .more-moments .row .sets-content .moment-tags img{
+	width: 24px;
+	margin-right: 5px;
+}
+.listing-secion-5 .more-moments .row .sets-content span{
+	display: block;
+}
+.listing-secion-5 .more-moments .row .sets-content .rare{
+	display: block;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    line-height: 16px;
+}
+.listing-secion-5 .more-moments .row .sets-content .rare span{
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    margin-right: 4px;
+    margin-left: 4px;
+    padding: 1px 4px;
+    color: inherit;
+    font-family: sans-serif;
+    font-size: 9px;
+    -webkit-font-smoothing: auto;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    border: 1px solid;
+    border-radius: 99em;
+}
+.listing-secion-5 .more-moments .row .sets-content .ask{
+	font-family: sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: rgb(167, 174, 187);
+}
+.listing-secion-5 .more-moments .row .sets-content .price{
+    font-family: sans-serif;
+    font-weight: 1000;
+    line-height: 1;
+    font-size: 16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: rgb(255, 255, 255);
+}
+.listing-secion-5 .more-moments .row .sets-content .listing{
+	font-family: sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 12px;
+    color: rgb(255, 255, 255);
+}
 
 
 
@@ -718,5 +1105,34 @@ p.update-note{
 	}
 	.product-details .select-buy-btn{
 		width: 85%;
+	}
+
+	.listing-secion-2{
+		padding: 0px 5%;
+	}
+	.listing-secion-2 .collectibles-details-bar{
+		padding: 20px;
+	}
+	.listing-secion-2 .collectibles-details-bar h2{
+		font-size: 18px;
+	}
+
+	.semi-donut{
+	  --percentage: 0;
+	  width: 100%;
+	  height: 180px;
+	  margin-top: 50px;
+	}
+	 .semi-donut:after{
+	    content: '';
+	    width: 100%;
+	    height: 370px;
+	  }
+	.collectibles-stats a{
+		margin-top: 5px;
+		font-size: 13px;
+		text-decoration: underline;
+		font-family: sans-serif;
+		color: var(--grey2);
 	}
 }

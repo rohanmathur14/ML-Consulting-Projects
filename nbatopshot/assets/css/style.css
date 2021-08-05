@@ -23,6 +23,11 @@
 	src: url('../font/Shapiro/lightheavy.otf') 
 		format('opentype');
 }
+@font-face {
+	font-family: 'aldoTheApache';
+	src: url('../font/aldo/AldotheApache.ttf') 
+		format('truetype');
+}
 :root{
 	--grey: #212127;
 	--grey2: rgb(167, 174, 187);

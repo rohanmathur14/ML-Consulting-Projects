@@ -1006,6 +1006,11 @@ p.update-note{
 
 
 @media only screen and (max-width: 600px){
+
+	section{
+		width: 100%;
+		overflow: hidden;
+	}
 	.product-details-mob{
 		display: block !important;
 	}
@@ -1135,4 +1140,197 @@ p.update-note{
 		font-family: sans-serif;
 		color: var(--grey2);
 	}
+	.collectibles-stats .col-sm-8.right{
+		flex-flow: column;
+		margin-top: 25px;
+	}
+	.collectibles-stats .col-sm-8.right .set{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.notice{
+		width: 100%;
+		padding: 40px 5%;
+		align-items: center;
+	}
+	.notice img{
+		width: 70px;
+	}
+	.notice p, .notice a{
+		text-decoration: none;
+		font-size: 14px;
+		font-family: sans-serif;
+		font-weight: 500;
+		color: #fff;
+	}
+	.notice i{
+		transform: translateY(0px);
+	}
+
+	.listing-secion-3{
+		padding: 0px 5%;
+		background: #000;
+		padding-bottom: 40px;
+	}
+
+	.listing-secion-3 .highlight-stats-bar{
+		padding: 22px 20px;
+	}
+	.listing-secion-3 .highlight-stats-bar h2{
+		font-size: 18px;
+	}
+	.highlight-stats-top-head{
+		margin-bottom: 80px;
+		transform: translateX(10px);
+	}
+	.highlight-stats-top-head .date{
+		display: block;
+		font-size: 14px;
+		font-weight: 600;
+		letter-spacing: 1px;
+	}
+
+	.highlight-stats-top-head .name{
+		display: block;
+		font-size: 22px;
+		transform: translate(35px, 20px);
+	}
+	.highlight-stats-top-head .season{ 
+		display: block;   
+		font-size: 16px;
+		transform: translate(35px, 20px);
+	}
+	.box-scores .body{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: row;
+		padding: 12px 0px;
+		overflow: auto;
+	}
+	.box-scores .box{
+		width: 20%;
+		padding: 0px 20px;
+	}
+
+	.box-scores .score{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0px 20px;
+	}
+	.box-scores .score .team{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.box-scores .score .team img{
+		width: 2rem;
+	}
+	.box-scores .score .team p{
+		display: none;
+	}
+	.game-scores {
+		overflow-y: visible;
+	}
+	.game-scores .score .body .box{
+		padding: 0px 0px;
+	}
+
+	.game-scores .score.score1:before{
+		font-family: "Font Awesome 5 Free";
+		font-weight: 900;
+		content: "\f0dd";
+		position: absolute;
+		color: #fff;
+		top: 50%;
+		transform: translateY(-50%) rotate(-90deg);
+		left: -25px;
+		font-size: 3rem;
+	}
+	.listing-secion-4{
+		padding: 0px 5%;
+	}
+	.listing-secion-4 .player-stats-bar{
+		padding: 22px 20px;
+	}
+	.listing-secion-4 .player-stats-bar h2{
+		font-size: 18px;
+	}
+	.player-stats-details{
+		padding: 0px;
+		padding-top: 120px;
+	}
+
+	.player-stats-details h2{
+	    font-size: 18px;
+	    margin-bottom: 10px;
+	}
+	.stats-row{
+		flex-direction: column;
+	}
+	.stats-row .detail-row{
+		justify-content: space-between;
+	}
+	.stats-box2 .detail-row{
+		justify-content: flex-start;
+	}
+	.stats-row .stats-box{
+		width: 100%;
+		background: #000;
+		color: #fff;
+	}
+	.code-view span.code-number{
+	    padding-right: 20px;
+	    font-size: 90px;
+	    line-height: 100px;
+	    color: rgb(255, 255, 255);
+	    font-family: 'aldoTheApache';
+	    text-align: right;
+	}
+	.code-view{
+		position: absolute;
+		top: 3%;
+		right: 3%;
+	}
+	.code-view img{
+		position: absolute;
+		top: -2%;
+		right: -5%;
+		width: 40px;
+	}
+	.season-averages .body{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: row;
+		padding: 12px 0px;
+		overflow: auto;
+	}
+	.season-averages .box{
+		width: calc(100% / 16);
+		padding: 0px 40px;
+	}
+
+	.listing-secion-5{
+		width: 100%;
+		padding: 60px 5% 50px 5%;
+	}
+	.listing-secion-5 .more-moments .row{
+		flex-flow: row wrap;
+	}
+	.listing-secion-5 .more-moments .row .col-sm-3{
+		width: 50%;
+	}
+	
+	.listing-secion-5 .more-moments .row .sets-content .set-text{
+		transform: translateX(20px);
+	}
+	.listing-secion-5 .more-moments .row .sets-content p{
+	    padding-right: 10%;
+	}
+
 }

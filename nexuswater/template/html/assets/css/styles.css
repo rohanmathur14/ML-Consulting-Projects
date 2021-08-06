@@ -423,7 +423,7 @@ label {
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 }
 .oildrop-header .oildrop-brand img {
-  max-height: 64px;
+  max-height: 44px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
@@ -450,7 +450,7 @@ label {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
-  padding: 42px 18px;
+  padding: 32px 18px;
   display: inline-block;
 }
 .oildrop-navigation ul li a:hover, .oildrop-navigation ul li a:focus, .oildrop-navigation ul li:hover > a, .oildrop-navigation ul li:focus > a {
@@ -2031,6 +2031,11 @@ ul.share-icons > li > a {
   width: 100%;
   height: 650px;
 }
+.post-media img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
 .grid {
   margin-left: -15px;
   margin-right: -15px;
@@ -2298,12 +2303,26 @@ ul.share-icons > li > a {
     color: #ffffff;
 }
 
+.blog-content p b{
+  color: #000;
+  font-weight: 600;
+}
+
 @media only screen and (max-width: 600px){
   .portfolio-img a img {
     width: 100%;
     max-width: 100%;
     height: 300px;
     object-fit: cover;
+  }
+
+  .oildrop-header .oildrop-brand img {
+    max-height: 40px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .is-sticky .oildrop-header .oildrop-brand img {
+    max-height: 30px;
   }
 }
 

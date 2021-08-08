@@ -2017,6 +2017,11 @@ aside .aside-post + .aside-post {
   border-top: 1px solid #e5e5e5;
 }
 
+.blog-details ul{
+  list-style: square;
+  margin-bottom: 15px;
+}
+
 .top-brand img{
   width: 80px;
   padding: 10px 0px;

@@ -779,6 +779,7 @@ div.blogs{
     background-color: #fff;
 }
 .s-home.blogs::before{
+    display: none;
     background-color: #fff;
 }
 

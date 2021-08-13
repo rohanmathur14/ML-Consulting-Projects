@@ -933,6 +933,9 @@ section {
   line-height: 1.4;
   margin-bottom: 20px;
 }
+.blog-details .place-title {
+  margin-bottom: 0px;
+}
 .entry-detail .place-status {
   margin-top: 12px;
   margin-bottom: 10px;

@@ -729,7 +729,7 @@ transition: all .2s ease;position:relative;left:0;    margin: -4px 0;font-size:1
 .menu-head h3 {font-size:18px;color: #ffffff;margin-bottom: 0;}
 
 
-.start-header{margin-top: 10px;}
+.start-header{margin-top: 10px; background: #1e6295;}
 .right-topbar .dropdown:after{display:none;}
 .right-topbar .dropdown a{color:#ffffff;}
 .right-topbar .dropdown .dropdown-menu a{color:#000;font-size:13px;}
@@ -931,6 +931,7 @@ header.blog.desktop-header .start-header{
 }
 
 .single-blog .sidebar{
+    width: 100%;
     margin: 0px !important;
     padding-top: 30px;
 }
@@ -950,4 +951,31 @@ header.blog.desktop-header .start-header{
 .single-blog .sidebar ul li a{
     font-size: 16px;
     font-weight: 500;
+}
+
+@media only screen and (max-width: 600px){
+    .container-box {
+        padding: 0px 5%;
+    }
+    .navbar-brand img {
+        width: 140px;
+        margin: 10px 0px;
+    }
+
+    .blogs-listing h1{
+        margin-bottom: 20px;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .corporate-client-box.blog-box .corporate-client-right{    width: 100%;}
+    .corporate-client-box.blog-box .corporate-client-right img{width: 100%; height:250px;object-fit:cover;}
+
+    .single-blog .blog-content h2{
+        font-size: 22px;
+        line-height: 28px;
+        text-decoration: underline;
+        color: #248dce;
+        margin-bottom: 20px;
+    }
 }

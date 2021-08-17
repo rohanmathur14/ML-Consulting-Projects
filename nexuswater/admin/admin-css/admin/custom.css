@@ -1,0 +1,138 @@
+.align-left{text-align: left !important;}
+.clr{clear: both !important;}
+.deleteimg{color: #002166;}
+.table_view_list{list-style: circle;padding: 0;}
+.table_view_list li{width: 23%; display: inline-block}
+.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .fa-chevron-left, .carousel-control .fa-chevron-right {
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+}
+
+.align-left{text-align: left !important;}
+.align-right{text-align: right !important;}
+.clr{clear: both; !important;}
+.simpleheading{ font-weight: 700;}
+.marbtm30{ margin-bottom:30px;}
+.transportVehicle li{vertical-align: top}
+.mbt20{ margin:20px 0 !important;}
+.p0{padding: 0 !important;}
+.pl5{padding-left: 5px !important;}
+.pr5{padding-right: 5px !important;}
+.m0{margin: 0 !important;}
+.mb0{margin-bottom: 0 !important;}
+.mt0{margin-top: 0 !important;}
+.vtop{vertical-align: top !important;}
+.vmiddle{vertical-align: middle !important;}
+.vbottom{vertical-align: bottom !important;}
+
+.re_booking_cont .tab_heading {
+    background: #dddddd none repeat scroll 0 0;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    height: 46px;
+    padding: 0 20px;
+}
+
+.tab_heading .tabmenu li.active a {
+    border-bottom: 4px solid #68cbe0;
+}
+.tab_heading .tabmenu li a {
+    border-bottom: 3px solid transparent;
+    color: #808080;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 41px;
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+.block_element {
+    display: block;
+}
+.minfont {
+    font-size: 9px;
+}
+.pending_color {
+    color: #75cee0;
+    font-weight: 600;
+}
+.accept_color {
+    color: #74c276;
+    font-weight: 600;
+}
+.declined_color {
+    color: #f16266;
+    font-weight: 600;
+}
+.cancel_color {
+    color: #ffca34;
+    font-weight: 600;
+}
+.re_booking_cont .book_hisTable td {
+    padding: 10px 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+.re_booking_cont .book_hisTable th {
+    text-align: center;
+}
+
+/*--trip--*/
+.tripinfocont h3{ font-size:18px; font-weight:600; margin:0 0 10px;}
+.trip_tab .tripuser{ float: left;}
+.trip_tab .tripuser .tripusername{ text-align: center; margin:5px 0 0;width: 70px;word-wrap: break-word;}
+.trip_tab .tripusername{margin:0px; color:#949494}
+.tripinfocont .trip_tab{ border: solid 1px #ccc;}
+.tripinfocont .trip_tab table.tripinfotable{ width: 100%; border-left: solid 1px #ccc}
+.tripinfocont .tripinfotab{ margin-left:71px;}
+.tripinfocont .trip_tab table.tripinfotable th{ background:#dedede; color:#707070}
+.tripinfocont .trip_tab table.tripinfotable th,.tripinfocont .trip_tab table.tripinfotable td{ text-align: center; padding:5px;border-right: solid 1px #ccc; border-bottom: solid 1px #ccc}
+.tripinfocont .trip_tab table.tripinfotable td.borbtm_n{ border-bottom: 0px;}
+.tripinfocont .trip_tab table.tripinfotable td.borght_n{ border-right: 0px;}
+.tripinfocont .trip_tab table.tripinfotable th.borght_n{ border-right: 0px;}
+/*--trip--*/
+
+
+.modal-lg {
+    width: 900px;
+}
+.modal-ex-lg {
+    width: 1200px;
+}
+/*.vertical-align-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+.vertical-alignment-helper {
+    display: table;
+    height: 100%;
+    width: 100%;
+}*/
+
+#popUpDetail .modal-content{ padding:15px 0;}
+#popUpDetail .modal-content button.close{position: absolute; right: 5px; top:5px; font-size:20px; background:#000; border-radius:50%; line-height:1; width:24px; color:#fff; opacity: 1; padding: 0px 0px 3px}
+
+#FrmAddBusiness table .form-group .help-block{
+    margin: 0px;
+}
+#FrmAddBusiness table .form-group{
+    margin: 0px;
+}
+
+.bg-success {
+    color: #fff;
+    background-color: #27c24c;
+}
+.bg-error {
+    color: #fff;
+    background-color: #EE3939;
+}
+.bg-pending {
+    color: #fff;
+    background-color: #EE3939;
+}

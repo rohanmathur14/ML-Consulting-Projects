@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
 @font-face {
 	font-family: 'Shapiro-115-extd';
 	src: url('../font/Shapiro/115plusextd.otf') 
@@ -44,7 +45,7 @@
 	font-family: 'Shapiro-lh';
 }
 h1,h2,h3,h4,h5{
-	font-family: 'Shapiro-extd';
+	font-family: 'Squada One', cursive;
 }
 .primary-btn{
 	border: none;
@@ -134,7 +135,8 @@ header nav .menubar span{
 	width: 60%;
 	height: 2.5px;
 	border-radius: 10px;
-	background: rgba(255, 255, 255, 0.5);
+	/*background: rgba(255, 255, 255, 0.5);*/
+	background: rgba(0, 0, 0, 0.5);;
 	margin: 5px 0px;
 }
 header nav .menubar span:nth-child(2){
@@ -195,13 +197,16 @@ header nav .logoBox{
 header nav .logoBox img{
 	width: 200px;
 }
+header nav .logoBox a:before{
+	display: none;
+}
 header nav ul li .innernav{
 	position: absolute;
 	top: 4rem;
 	left: 0;
 	width: 100%;
 	height: 450px;
-	background: var(--grey);
+	background: #fff;
 	border-top: 1px solid rgba(255, 255, 255, 0.5);
 	padding: 0px 10%;
 	z-index: -5;
@@ -209,6 +214,7 @@ header nav ul li .innernav{
 	transition: 0.2s;
 	transition-delay: 0.1s;
 	display: none;
+	box-shadow: 5px 15px 20px rgba(0, 0, 0, 0.2);
 }
 header nav ul li:hover .innernav{
 	opacity: 1;
@@ -232,7 +238,7 @@ header nav ul li .innernav a:before{
 header nav ul li .innernav .content p{
 	margin-bottom: 10px;
 	letter-spacing: 2px;
-	color: rgba(255, 255, 255, 0.5);
+	color: rgba(0, 0, 0, 0.7);
 	font-size: 0.75rem;
 	font-family: arial;
 	font-weight: 600;
@@ -256,6 +262,8 @@ header nav ul li .innernav .content div:hover img{
 }
 header nav ul li .innernav .content h5{
 	margin-top: 15px;
+	font-size: 14px;
+	line-height: 1.2;
 }
 
 header nav ul li .innernav.marketplace .left a{
@@ -263,13 +271,14 @@ header nav ul li .innernav.marketplace .left a{
 	padding: 3px;
 	transition: 0.3s;
 	font-size: 0.8rem;
+	font-weight: 600;
 }
 header nav ul li .innernav.marketplace a.light{
 	display: block;
 	margin-bottom: 8px;
 	margin-top: -5px;
-	letter-spacing: 2px;
-	color: rgba(255, 255, 255, 0.7);
+	letter-spacing: 1px;
+	color: rgba(0, 0, 0, 0.8);
 	font-size: 0.8rem;
 	font-family: arial;
 	font-weight: 600;
@@ -318,7 +327,7 @@ header nav ul li .innernav .content div.team img:hover{
 	transform: scale(1.1);
 }
 header nav ul li .innernav .content p.norm{
-	color: #fff;
+	color: #000;
 	text-transform: none;
 	letter-spacing: 0.2px;
 	font-size: 0.9rem;
@@ -327,7 +336,7 @@ header nav ul li .innernav .content p.norm{
 }
 header nav ul li .innernav .content a.btn{
 	background: transparent;
-	border: 2px solid rgba(255, 255, 255, 1);
+	border: 2px solid rgba(0, 0, 0, 1);
 	display: block;
 	width: 80%;
 	text-align: center;
@@ -335,13 +344,13 @@ header nav ul li .innernav .content a.btn{
 	margin-top: 20px;
 }
 header nav ul li .innernav .content a.btn:hover{
-	border: 2px solid rgba(255, 255, 255, 0.7);
+	border: 2px solid rgba(0, 0, 0, 0.7);
 }
 header nav ul li .innernav .content a.btn2{
 	margin-top: 30px;
 }
 header nav ul li .innernav.marketplace .content p{
-	margin-bottom: 0px;
+	margin-bottom: 10px;
 }
 header nav ul li .innernav.marketplace .content .social-icons{
 	width: 80%;
@@ -361,9 +370,9 @@ header nav ul li .innernav.marketplace .content .social-icons ul li{
 header nav ul li .innernav.marketplace .content .social-icons ul li a{
 	display: block;
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 	padding: 7px;
-	border: 2px solid #fff;
+	border: 2px solid #000;
 	font-size: 1.1rem;
 	margin: 0px;
 }
@@ -1168,13 +1177,13 @@ footer .footer-img-logo{
 		width: 100%;
 	}
 	header nav .logoBox img{
-		width: 120px;
+		width: 180px;
 	}
 	header nav .right-nav{
 		transform: translateX(0px);
 	}
 	header nav .right-nav a.btn{
-		transform: translateX(20px);
+		transform: translateX(10px);
 	}
 	header nav .menubar{
 		display: block;
@@ -1727,5 +1736,12 @@ footer .footer-img-logo{
 	    color: var(--green);
 	    line-height: 1;
 	    border: 2px solid var(--green);
+	}
+}
+
+
+@media only screen and (max-width: 600px){
+	header nav .right-nav a.btn{
+		transform: translateX(-10px);
 	}
 }

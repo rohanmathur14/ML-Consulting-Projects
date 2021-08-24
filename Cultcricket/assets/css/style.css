@@ -1209,7 +1209,8 @@ footer .footer-img-logo{
 	header .mobile-nav-links .maincon{
 		width: 90%;
 		height: 100%;
-		background: var(--grey);
+		background: #fff;
+		/*background: var(--grey);*/
 	}
 	header .mobile-nav-links .closeNav{
 		width: 7%;
@@ -1245,7 +1246,7 @@ footer .footer-img-logo{
 	}
 	header .mobile-nav-links .maincon ul a.btn{
 		background: transparent;
-		border: 2px solid rgba(255, 255, 255, 1);
+		border: 2px solid rgba(0, 0, 0, 1);
 		display: block;
 		width: 80%;
 		text-align: center;
@@ -1258,8 +1259,9 @@ footer .footer-img-logo{
 		transform: translateX(-5px);
 	}
 	header .mobile-nav-links .maincon ul .social-icons ul li a{
-		padding: 5px;
-		border: 2px solid #fff;
+		padding: 7px;
+		font-size: 16px;
+		border: 2px solid #000;
 	}
 
 	header .mobile-nav-links .maincon .dropdown .drop-con{
@@ -1268,7 +1270,7 @@ footer .footer-img-logo{
 		left: -500px;
 		width: 90%;
 		height: 100vh;
-		background: var(--grey);
+		background: #fff;
 		display: flex;
 		justify-content: flex-start;
 		align-items: flex-start;
@@ -1285,6 +1287,7 @@ footer .footer-img-logo{
 	}*/
 	header .mobile-nav-links .maincon .dropdown{
 		letter-spacing: 2px;
+		color: #000;
 	}
 	header .mobile-nav-links .maincon .dropdown .drop-con span a{
 		font-family: 'Shapiro-lh';
@@ -1302,6 +1305,12 @@ footer .footer-img-logo{
 	header .mobile-nav-links .maincon .dropdown .drop-con .top i{
 		margin-right: 15px;
 		opacity: 0.8;
+	}
+	header .social-icons ul{
+		transform: translateX(-10px);
+	}
+	header nav .right-nav ul li{
+		margin-right: 10px;
 	}
 
 	/* Header css end here  */

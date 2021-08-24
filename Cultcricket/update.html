@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Upload | Cult Cricket</title>
+	<link rel="stylesheet" type="text/css" href="assets/admin/css/styles.css">
+</head>
+<body>
+
+	<div class="upload-form-box">
+		<img src="assets/img/logo/nav-logo-blue.svg" class="logo">
+		<h1>Video Registration</h1>
+
+		<form action="#" method="">
+
+			<div class="form-row video-input">
+				
+				
+				<div class="video-upload-field" ondragover="this.style.borderColor='#0c0';return false;"       
+				     ondragleave="this.style.borderColor='#ccc'"       
+				     ondrop="getTheFile(event); return false;"       
+				>
+					<input type="file" onchange="readFile(event)" required>
+					<p>Or</p>
+					<p>Drag & Drop your video here</p>
+					<span id="fileDragName" class="video-details"></span>
+					<span id="fileDragSize" class="video-details"></span>
+					<span id="fileDragType" class="video-details"></span>
+					<span id="fileDragData" class="video-details"></span>
+				</div>
+			</div>
+
+			<div class="form-row">
+				<div class="label-box">
+					<label for="name">Player name : </label>
+				</div>
+
+				<div class="input-box">
+					<input type="text" name="name" placeholder="Enter Player Name" required>
+				</div>
+			</div>
+
+			<div class="form-row">
+				<div class="label-box">
+					<label for="team_name">Team name : </label>
+				</div>
+
+				<div class="input-box">
+					<select class="team_name">
+						<option value="Chennai">Chennai</option>
+						<option value="Delhi">Delhi</option>
+						<option value="Delhi">Delhi</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="form-row">
+
+				<input type="submit" name="submit" value="upload">
+
+			</div>
+
+		</form>
+	</div>
+
+
+	<script type="text/javascript">
+		function readFile(e) {
+		  var files;
+		  if (e.target.files) {
+		    files=e.target.files
+		  } else {
+		    files=e.dataTransfer.files
+		  }
+		  if (files.length==0) {
+		    alert('What you dropped is not a file.');
+		    return;
+		  }
+		  // document.querySelectorAll(".video-details").classList.add("active");
+		  var file=files[0];
+		  document.getElementById('fileDragName').innerHTML = file.name
+		  document.getElementById('fileDragSize').innerHTML = "File Size : "+file.size
+		  document.getElementById('fileDragType').innerHTML = "File Format : "+file.type
+		  reader = new FileReader();
+		  reader.onload = function(e) {
+		    // document.getElementById('fileDragData').innerHTML = e.target.result;
+		  }
+		  reader.readAsDataURL(file);
+		}
+		function getTheFile(e) {
+		  e.target.style.borderColor='#ccc';
+		  readFile(e);
+		}
+	</script>
+</body>
+</html>

@@ -368,30 +368,30 @@
 			<!-- left product media -->
 			<div class="col-sm-6">
 				<div class="product-content-menu">
-					<div class="box videohint active">
+					<div class="box videohint active" data-video="assets/video/listing.mp4">
 						<img src="assets/img/product-con-type/2.jpg">
 					</div>
-					<div class="box">
+					<div class="box imghint" data-img="assets/img/product-con-type/1.jpg">
 						<img src="assets/img/product-con-type/1.jpg">
 					</div>
-					<div class="box">
+					<div class="box imghint" data-img="assets/img/product-con-type/1.jpg">
 						<img src="assets/img/product-con-type/1.jpg">
 					</div>
-					<div class="box">
+					<div class="box imghint" data-img="assets/img/product-con-type/1.jpg">
 						<img src="assets/img/product-con-type/1.jpg">
 					</div>
-					<div class="box">
+					<div class="box imghint" data-img="assets/img/product-con-type/1.jpg">
 						<img src="assets/img/product-con-type/1.jpg">
 					</div>
-					<div class="box">
+					<div class="box imghint" data-img="assets/img/product-con-type/1.jpg">
 						<img src="assets/img/product-con-type/1.jpg">
 					</div>
 				</div>
 				<div class="content-field">
-					<video autoplay loop muted class="change-video">
+					<video autoplay loop muted class="opt-video change-video">
 						<source src="assets/video/listing.mp4" type="video/mp4">
 					</video>
-					<img src="assets/img/product-con-type/1.jpg" class="change-image">
+					<img src="assets/img/product-con-type/1.jpg" class="opt-image change-image">
 				</div>
 			</div>
 			<!-- left product media -->
@@ -916,6 +916,25 @@
 		});
 
 		$(".change-image").hide();
+
+		$(".imghint").click(function(){
+			var imgLink = $(this).attr('data-img');
+			$(".opt-video").hide();
+			$(".opt-image").show();
+			$(".opt-image").attr("src", imgLink);
+			$(".box").removeClass("active");
+			$(this).addClass("active");
+		});
+
+		$(".videohint").click(function(){
+			var vidLink = $(this).attr('data-video');
+			$(".opt-video").show();
+			$(".opt-image").hide();
+			$(".opt-video").attr("src", vidLink);
+			$(".box").removeClass("active");
+			$(this).addClass("active");
+		});
+
 	</script>
 
 </body>

@@ -12,7 +12,7 @@ $(document).ready(function() {
 
   jQuery('.close-icon').on('click', function() {
     jQuery('.header-wrap').removeClass('open');
-    jQuery('.oildrop-toggle').removeClass('active');
+    jQuery('.header-toggle').removeClass('active');
   });
 
   // Sub Menu Scripts
@@ -63,30 +63,31 @@ $(document).ready(function() {
   // Testimonials
   $('.testimonials .owl-carousel').owlCarousel({
     loop:true,
-    margin:30,
     autoplay: true,
     responsiveClass:true,
     center:true,
     nav:false,
-    dot: true,
+    dot: false,
     responsive:{
       0:{
-        items:1,
-      },
-      479:{
-        items:1,
-      },
-      575:{
-        items:1,
-      },
-      767:{
-        items:1,
-      },
-      992:{
         items:2,
       },
+      479:{
+        items:2,
+        margin:0,
+      },
+      575:{
+        items:2,
+      },
+      767:{
+        items:2,
+      },
+      992:{
+        items:5,
+      },
       1199:{
-        items:3,
+        items:5,
+        margin:20,
       }
     }
   });
@@ -100,7 +101,27 @@ $(document).ready(function() {
     center:true,
     nav:false,
     dot: true, 
-    items: 1,   
+    items: 1,
+    responsive:{
+      0:{
+        items:1,
+      },
+      479:{
+        items:2,
+      },
+      575:{
+        items:2,
+      },
+      767:{
+        items:2,
+      },
+      992:{
+        items:3,
+      },
+      1199:{
+        items:3,
+      }
+    }   
   });
 
   // Gallery

@@ -42,6 +42,7 @@ if(isset($LoginUserDetail) && $LoginUserDetail>0)
 
     <link rel="stylesheet" type="text/css" href="<?php echo $site_path['admin_css_url']; ?>responsive.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $site_path['base_url']; ?>css/styles.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $site_path['base_url']; ?>css/responsive.css">
     <link href="<?php echo $site_path['admin_js_url']; ?>font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 

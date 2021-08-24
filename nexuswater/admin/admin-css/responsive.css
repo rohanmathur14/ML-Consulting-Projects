@@ -16,7 +16,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 80%;
     height: 100%;
     padding: 20px;
     background: #ffffff;
@@ -37,6 +37,8 @@
   }
   .oildrop-navigation > ul {
     position: relative;
+    display: flex;
+    flex-flow: column;
   }
   .header-right ul li {
     position: initial;

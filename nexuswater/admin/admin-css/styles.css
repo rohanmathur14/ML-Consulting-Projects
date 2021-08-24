@@ -582,6 +582,9 @@ label {
 section {
   padding: 80px 0;
 }
+section#login {
+  padding: 20px 0;
+}
 .section-title {
   position: relative;
   padding-bottom: 15px;
@@ -2322,6 +2325,12 @@ ul.share-icons > li > a {
   }
   .is-sticky .oildrop-header .oildrop-brand img {
     max-height: 30px;
+  }
+}
+
+@media only screen and (min-width: 1199px){
+  #sidebar-collapse{
+    display: none;
   }
 }
 

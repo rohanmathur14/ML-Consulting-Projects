@@ -1334,3 +1334,15 @@ p.update-note{
 	}
 
 }
+
+@media only screen and (max-width: 398px){
+	.listing-secion-1 .row .col-sm-6 .product-content-menu .box{
+		margin-right: 5px;
+	}
+	.listing-secion-1 .product-content-menu img{
+		width: 50px;
+	}
+	.semi-donut:after{
+		height: 325px;
+	}
+}

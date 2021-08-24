@@ -89,6 +89,7 @@
   }
   .dropdown.user a.dropdown-toggle {
     padding: 10.5px;
+    background-color: #30355d;
   }
   /* SIDEBAR */
   .sidebar {

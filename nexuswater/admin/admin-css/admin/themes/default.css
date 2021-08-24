@@ -288,6 +288,8 @@
     position: absolute;
     border-bottom: 1px solid var(--primary1);
     /*min-height:550px;*/
+
+    display: none;
 }
 .sidebar-fixed {
     position: fixed !important;
@@ -588,12 +590,13 @@
 }
 .sidebar-collapse > [class*="fa-"],
 .switcher > [class*="fa-"] {
-    /*color: #FFFFFF;*/ color:#4c4c4c;
+    /*color: #FFFFFF;*/ color:#ffff;
     cursor: pointer;
     display: inline-block;
     padding: 0 5px;
     position: relative;
     float: right;
+    font-size: 22px;
 }
 .menu-text .badge {
     position: absolute;

@@ -10,7 +10,7 @@
 
 	<div class="upload-form-box">
 		<img src="assets/img/logo/nav-logo-blue.svg" class="logo">
-		<h1>Video Registration</h1>
+		<h1>Video Upload</h1>
 
 		<form action="#" method="">
 
@@ -22,8 +22,8 @@
 				     ondrop="getTheFile(event); return false;"       
 				>
 					<input type="file" onchange="readFile(event)" required>
-					<p>Or</p>
-					<p>Drag & Drop your video here</p>
+					<!-- <p>Or</p> -->
+					<!-- <p>Drag & Drop your video here</p> -->
 					<span id="fileDragName" class="video-details"></span>
 					<span id="fileDragSize" class="video-details"></span>
 					<span id="fileDragType" class="video-details"></span>
@@ -50,14 +50,67 @@
 					<select class="team_name">
 						<option value="Chennai">Chennai</option>
 						<option value="Delhi">Delhi</option>
-						<option value="Delhi">Delhi</option>
+						<option value="Pubjab">Pubjab</option>
+						<option value="Kolkata">Kolkata</option>
+						<option value="Mumbai">Mumbai</option>
+						<option value="Rajasthan">Rajasthan</option>
+						<option value="Bangalore">Bangalore</option>
+						<option value="Hyderabad">Hyderabad</option>
 					</select>
 				</div>
 			</div>
 
 			<div class="form-row">
+				<div class="label-box">
+					<label for="type">Type : </label>
+				</div>
 
-				<input type="submit" name="submit" value="upload">
+				<div class="input-box">
+					<select class="type">
+						<option value="Batting">Batting</option>
+						<option value="Bowling">Bowling</option>
+						<option value="Fielding">Fielding</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="form-row">
+				<div class="label-box">
+					<label for="category">Category : </label>
+				</div>
+
+				<div class="input-box">
+					<select class="category">
+						<option value="Silver">Silver</option>
+						<option value="Gold">Gold</option>
+						<option value="Platinum">Platinum</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="form-row">
+				<div class="label-box">
+					<label for="price">Price : </label>
+				</div>
+
+				<div class="input-box">
+					<input type="number" name="price" id="price">
+				</div>
+			</div>
+
+			<div class="form-row">
+				<div class="label-box">
+					<label for="max_owner">Max Video Owners : </label>
+				</div>
+
+				<div class="input-box">
+					<input type="number" name="max_owner" id="max_owner">
+				</div>
+			</div>
+
+			<div class="form-row">
+
+				<button type="submit">Upload</button>
 
 			</div>
 
@@ -80,7 +133,7 @@
 		  // document.querySelectorAll(".video-details").classList.add("active");
 		  var file=files[0];
 		  document.getElementById('fileDragName').innerHTML = file.name
-		  document.getElementById('fileDragSize').innerHTML = "File Size : "+file.size
+		  document.getElementById('fileDragSize').innerHTML = "File Size : "+ (0.0000009537*file.size) + "MB"
 		  document.getElementById('fileDragType').innerHTML = "File Format : "+file.type
 		  reader = new FileReader();
 		  reader.onload = function(e) {

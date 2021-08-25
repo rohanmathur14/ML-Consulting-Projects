@@ -84,7 +84,7 @@ form .form-row .input-box input, form .form-row select{
 form .form-row button{
 	width: 85%;
 	padding: 10px 0px;
-	background: #0cc;
+	background: rgba(37,145,251,0.98);
 	outline: none;
 	border: none;
 	border-radius: 5px;

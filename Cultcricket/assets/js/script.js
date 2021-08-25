@@ -36,6 +36,13 @@ var swiper = new Swiper(".home-section-2-mob", {
       });
 
  var swiper = new Swiper(".allBallers", {
+        
+        // spaceBetween: 30,
+        freeMode: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
         breakpoints: {
           640: {
             slidesPerView: 3,
@@ -49,12 +56,6 @@ var swiper = new Swiper(".home-section-2-mob", {
             slidesPerView: 7,
             spaceBetween: 50,
           },
-        },
-        spaceBetween: 30,
-        freeMode: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
         },
       navigation: {
         nextEl: ".swiper-button-next",

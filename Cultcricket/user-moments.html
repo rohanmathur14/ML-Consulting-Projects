@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/user.css">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
 	<title>Cult Cricket</title>
@@ -352,35 +353,49 @@
 		</nav>
 	</header>
 
-	<div class="" style="margin: 100px 50px;">
-		<ol>
-			<li>
-				<a href="home.html">Landing Page</a>
-			</li>
-			<li>
-				<a href="packs.html">Packs</a>
-			</li>
-			<li>
-				<a href="single-pack.html">Single Pack Page</a>
-			</li>
-			<li>
-				<a href="search.html">Marketplace/Search</a>
-			</li>
-			<li>
-				<a href="listing.html">Listing</a>
-			</li>
-			<li>
-				<a href="collectors.html">Collectors</a>
-			</li>
-			<li>
-				<a href="update.html">Update</a>
-			</li>
-			<li>
-				<a href="user.html">user</a>
-			</li>
-		</ol>
-	</div>
+	<section class="user_section_1">
+		<div class="top_overlay">
+			<img src="assets/img/ballers/seth-curry.png">
+		</div>
 
+		<div class="user_header">
+			<div class="user_details">
+				<h2>MBogues_CLT1 <span><i class="fas fa-check-circle"></i></span></h2>
+				<p class="joined_date">Joined May, 2021</p>
+				<p class="user_id">@MBogues_CLT1 <span><i class="fas fa-link"></i></span></p>
+
+				<div class="score">36 Collector Score</div>
+			</div>
+
+			<ul class="user_options">
+				<li><a href="user.html">Overview</a></li>
+				<li class="active"><a href="user-moments.html">Moments</a></li>
+				<li><a href="#">Sets</a></li>
+				<li><a href="#">Showcases</a></li>
+				<li><a href="#">Challenges</a></li>
+			</ul>
+		</div>
+
+		<div class="user_body">
+
+			<div class="user_row">
+
+				<div class="user_moments_left">
+					<h4>3 Moments in total</h4>
+				</div>
+
+				<div class="user_moments_right">
+					<label>Sort By</label>
+					<select id="user_moments_sort">
+						<option value="received-oldest">Received (Oldest)</option>
+						<option value="received-Newest">Received (Newest)</option>
+					</select>
+				</div>
+
+			</div>
+		</div>
+
+	</section>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
 	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>

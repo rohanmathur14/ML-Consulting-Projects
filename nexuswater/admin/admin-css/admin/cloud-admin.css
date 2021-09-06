@@ -4500,6 +4500,7 @@ a.thumbnail.active {
 .alert h4 {
     margin-top: 0;
     color: inherit;
+    padding-bottom: 0px !important;
 }
 .alert .alert-link {
     font-weight: bold;

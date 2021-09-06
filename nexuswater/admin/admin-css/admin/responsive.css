@@ -19,7 +19,7 @@
   .navbar .nav .open > a,
   .navbar .nav .open > a:hover,
   .navbar .nav .open > a :focus {
-    background-color: #5a5a5a !important;
+    background-color: #64d0e4 !important;
   }
   .navbar .navbar-brand {
     float: none;
@@ -90,6 +90,7 @@
   .dropdown.user a.dropdown-toggle {
     padding: 10.5px;
     background-color: #30355d;
+    margin-top: 10px;
   }
   /* SIDEBAR */
   .sidebar {

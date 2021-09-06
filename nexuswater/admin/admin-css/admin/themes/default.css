@@ -97,7 +97,7 @@
     list-style: none outside none;
     margin: 0;
     max-width: 300px;
-    min-width: 166px;
+    min-width: 100%;
     padding: 0;
     position: absolute;
     text-shadow: none;
@@ -586,7 +586,7 @@
 }
 .sidebar-collapse:hover,
 .switcher:hover {
-    background-color: #64d0e4 ;
+    /*background-color: #d63031 ;*/
 }
 .sidebar-collapse > [class*="fa-"],
 .switcher > [class*="fa-"] {

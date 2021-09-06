@@ -15,7 +15,7 @@
             <!-- /TEAM STATUS FOR MOBILE -->
             <!-- SIDEBAR COLLAPSE -->
             <div id="sidebar-collapse" class="sidebar-collapse btn nexus-mob-menu">
-                <i class="fa fa-bars" data-icon1="fa fa-bars" data-icon2="fa fa-bars"></i>
+                <i class="fa fa-bars menu_icon_toggle" data-icon1="fa fa-bars" data-icon2="fa fa-bars"></i>
             </div>
             <!-- /SIDEBAR COLLAPSE -->
         </div>
@@ -285,6 +285,8 @@
 <script type="text/javascript">
     jQuery(".nexus-mob-menu").click(()=>{
         jQuery(".header-wrap").toggleClass("open");
+        jQuery(".menu_icon_toggle").toggleClass("fa-bars");
+        jQuery(".menu_icon_toggle").toggleClass("fa-times");
     });
 
     // Sub Menu Scripts
